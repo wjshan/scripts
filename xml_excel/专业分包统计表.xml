@@ -1,0 +1,488 @@
+<WorkBook>
+  <WorkSheet title="招标合同汇总">
+    <cols>
+      <col width="5.6640625" customWidth="1" style="60" min="1" max="1"/>
+      <col width="20.5" customWidth="1" style="57" min="2" max="2"/>
+      <col width="11.6640625" customWidth="1" style="109" min="3" max="3"/>
+      <col width="10.1640625" customWidth="1" style="109" min="4" max="4"/>
+      <col width="20.6640625" customWidth="1" style="62" min="5" max="5"/>
+      <col width="17.33203125" customWidth="1" style="62" min="6" max="6"/>
+      <col width="11.1640625" customWidth="1" style="63" min="7" max="8"/>
+      <col width="8.83203125" customWidth="1" style="64" min="9" max="15"/>
+      <col width="9.1640625" customWidth="1" style="60" min="16" max="16"/>
+      <col width="9" customWidth="1" style="60" min="17" max="16384"/>
+    </cols>
+    <rows>
+      <row ht="60" customFormat="1" customHeight="1" s="55" index="1"/>
+      <row ht="23" customHeight="1" index="2"/>
+      <row ht="35" customFormat="1" customHeight="1" s="56" index="3"/>
+      <row ht="35" customFormat="1" customHeight="1" s="57" index="4"/>
+      <row ht="26" customFormat="1" customHeight="1" s="5" index="5"/>
+      <row ht="26" customFormat="1" customHeight="1" s="5" index="6"/>
+      <row ht="26" customFormat="1" customHeight="1" s="5" index="7"/>
+      <row ht="26" customFormat="1" customHeight="1" s="58" index="8"/>
+      <row ht="26" customFormat="1" customHeight="1" s="5" index="9"/>
+      <row ht="26" customFormat="1" customHeight="1" s="58" index="10"/>
+      <row ht="26" customFormat="1" customHeight="1" s="58" index="11"/>
+      <row ht="26" customFormat="1" customHeight="1" s="5" index="12"/>
+      <row ht="26" customFormat="1" customHeight="1" s="5" index="13"/>
+      <row ht="26" customFormat="1" customHeight="1" s="59" index="14"/>
+      <row ht="26" customFormat="1" customHeight="1" s="5" index="15"/>
+      <row ht="26" customFormat="1" customHeight="1" s="58" index="16"/>
+      <row ht="26" customFormat="1" customHeight="1" s="58" index="17"/>
+      <row ht="25" customHeight="1" index="20"/>
+      <row ht="50.25" customHeight="1" index="21"/>
+      <row ht="25" customHeight="1" index="22"/>
+      <row ht="25" customHeight="1" index="23"/>
+      <row ht="25" customHeight="1" index="24"/>
+      <row ht="25" customHeight="1" index="25"/>
+    </rows>
+    <DataValidationList count="0"/>
+    <alignments>
+      <alignment horizontal="center" vertical="center" wrapText="1" id="0"/>
+      <alignment horizontal="left" vertical="center" wrapText="1" id="2"/>
+      <alignment horizontal="right" vertical="center" wrapText="1" id="3"/>
+      <alignment vertical="center" wrapText="1" id="4"/>
+    </alignments>
+    <fills/>
+    <fonts/>
+    <protections>
+      <protection locked="1" hidden="0" id="1"/>
+    </protections>
+    <borders/>
+    <Cell column="1" row="1" value="     2021 年一季度专业工程分包招标及合同情况汇总表" number_format="General" type="s" alignment_id="0" protection_id="1" min_row="1" max_row="1" min_col="1" max_col="16"/>
+    <br/>
+    <Cell column="1" row="2" value="填报单位（盖章）：工程总承包部" number_format="General" type="s" alignment_id="2" protection_id="1" min_row="2" max_row="2" min_col="1" max_col="3"/>
+    <Cell column="7" row="2" value="         数据截止日期：2021年1月1日至3月25日" number_format="General" type="s" alignment_id="0" protection_id="1" min_row="2" max_row="2" min_col="7" max_col="11"/>
+    <Cell column="15" row="2" value="表号：城建经015" number_format="General" type="s" alignment_id="3" protection_id="1" min_row="2" max_row="2" min_col="15" max_col="16"/>
+    <br/>
+    <Cell column="1" row="3" value="序号" number_format="General" type="s" alignment_id="0" protection_id="1" min_row="3" max_row="4" min_col="1" max_col="1"/>
+    <Cell column="2" row="3" value="工程名称" number_format="General" type="s" alignment_id="0" protection_id="1" min_row="3" max_row="4" min_col="2" max_col="2"/>
+    <Cell column="3" row="3" value="工程承包造价（万元）" number_format="0.00_ " type="s" alignment_id="0" protection_id="1" min_row="3" max_row="4" min_col="3" max_col="3"/>
+    <Cell column="4" row="3" value="其中：专业工程暂估价" number_format="0.00_ " type="s" alignment_id="0" protection_id="1" min_row="3" max_row="4" min_col="4" max_col="4"/>
+    <Cell column="5" row="3" value="专业分包合同名称" number_format="General" type="s" alignment_id="0" protection_id="1" min_row="3" max_row="4" min_col="5" max_col="5"/>
+    <Cell column="6" row="3" value="专业分包商名称" number_format="General" type="s" alignment_id="0" protection_id="1" min_row="3" max_row="4" min_col="6" max_col="6"/>
+    <Cell column="7" row="3" value="开、竣工日期" number_format="General" type="s" alignment_id="0" protection_id="1" min_row="3" max_row="3" min_col="7" max_col="8"/>
+    <Cell column="9" row="3" value="专业工程招标情况（项）" number_format="General" type="s" alignment_id="0" protection_id="1" min_row="3" max_row="3" min_col="9" max_col="12"/>
+    <Cell column="13" row="3" value="评标情况（项）" number_format="General" type="s" alignment_id="0" protection_id="1" min_row="3" max_row="3" min_col="13" max_col="15"/>
+    <Cell column="16" row="3" value="备注" number_format="General" type="s" alignment_id="0" protection_id="1" min_row="3" max_row="4" min_col="16" max_col="16"/>
+    <br/>
+    <Cell column="7" row="4" value="合同约定开工日期" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="8" row="4" value="合同约定完工日期" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="9" row="4" value="项目部招标" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="10" row="4" value="本单位机关招标" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="11" row="4" value="外部市场招标" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="12" row="4" value="未招标" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="13" row="4" value="项目部评标" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="14" row="4" value="机关评标" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="15" row="4" value="联合评标" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="5" value="一" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="2" row="5" value="自主分包" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="6" value="1" number_format="General" type="n" alignment_id="0" protection_id="1"/>
+    <Cell column="2" row="6" value="XX1工程" number_format="0.00_ " type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="3" row="6" value="70119.09" number_format="0.00_ " type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="4" row="6" value="21227" number_format="0.00_ " type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="5" row="6" value="疏散照明系统专业分包" number_format="0.00_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="6" row="6" value="北京安迪盛安全系统自动化有限公司" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="7" row="6" value="2020-11-30T00:00:00" number_format="mm-dd-yy" type="d" alignment_id="0" protection_id="1"/>
+    <Cell column="8" row="6" value="2021-05-30T00:00:00" number_format="mm-dd-yy" type="d" alignment_id="0" protection_id="1"/>
+    <Cell column="9" row="6" value="1" number_format="General" type="n" alignment_id="0" protection_id="1"/>
+    <Cell column="13" row="6" value="1" number_format="General" type="n" alignment_id="0" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="7" value="1" number_format="General" type="n" alignment_id="0" protection_id="1"/>
+    <Cell column="2" row="7" value="XX1工程" number_format="0.00_ " type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="3" row="7" value="70119.09" number_format="0.00_ " type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="4" row="7" value="21227" number_format="0.00_ " type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="5" row="7" value="****系统专业分包" number_format="0.00_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="6" row="7" value="北京******有限公司" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="7" row="7" value="2020-11-30T00:00:00" number_format="mm-dd-yy" type="d" alignment_id="0" protection_id="1"/>
+    <Cell column="8" row="7" value="2021-05-30T00:00:00" number_format="mm-dd-yy" type="d" alignment_id="0" protection_id="1"/>
+    <Cell column="9" row="7" value="1" number_format="General" type="n" alignment_id="0" protection_id="1"/>
+    <Cell column="13" row="7" value="1" number_format="General" type="n" alignment_id="0" protection_id="1"/>
+    <br/>
+    <Cell column="2" row="8" value="小计" number_format="0.00_ " type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="3" row="8" value="70119.09" number_format="0.00_ " type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="4" row="8" value="21227" number_format="0.00_ " type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="9" row="8" value="=SUM(I6:I7)" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="13" row="8" value="=SUM(M6:M7)" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="9" value="2" number_format="General" type="n" alignment_id="0" protection_id="1"/>
+    <Cell column="2" row="9" value="XX2工程" number_format="0.00_ " type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="3" row="9" value="136003.33" number_format="0.00_ " type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="5" row="9" value="室外安防工程专业分包" number_format="0.00_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="6" row="9" value="北京通建泰利特智能系统工程技术有限公司" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="7" row="9" value="2021-02-21T00:00:00" number_format="mm-dd-yy" type="d" alignment_id="0" protection_id="1"/>
+    <Cell column="8" row="9" value="2021-03-31T00:00:00" number_format="mm-dd-yy" type="d" alignment_id="0" protection_id="1"/>
+    <Cell column="9" row="9" value="1" number_format="General" type="n" alignment_id="0" protection_id="1"/>
+    <Cell column="14" row="9" value="1" number_format="General" type="n" alignment_id="0" protection_id="1"/>
+    <br/>
+    <Cell column="2" row="10" value="小计" number_format="0.00_ " type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="3" row="10" value="136003.33" number_format="0.00_ " type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="9" row="10" value="=SUM(I9:I9)" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="14" row="10" value="=SUM(N9:N9)" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="11" value="自主分包合计" number_format="General" type="s" alignment_id="0" protection_id="1" min_row="11" max_row="11" min_col="1" max_col="2"/>
+    <Cell column="3" row="11" value="=C8+C10" number_format="0.00_ " type="s" alignment_id="3" protection_id="1"/>
+    <Cell column="4" row="11" value="=D8+D10" number_format="0.00_ " type="s" alignment_id="3" protection_id="1"/>
+    <Cell column="9" row="11" value="=I8+I10" number_format="0_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="10" row="11" value="=J8+J10" number_format="0_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="11" row="11" value="=K8+K10" number_format="0_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="12" row="11" value="=L8+L10" number_format="0_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="13" row="11" value="=M8+M10" number_format="0_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="14" row="11" value="=N8+N10" number_format="0_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="15" row="11" value="=O8+O10" number_format="0_ " type="s" alignment_id="0" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="12" value="二" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="2" row="12" value="指定分包" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="13" value="1" number_format="General" type="n" alignment_id="0" protection_id="1"/>
+    <Cell column="2" row="13" value="XX2工程" number_format="0.00_ " type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="3" row="13" value="136003.33" number_format="0.00_ " type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="5" row="13" value="标识标牌专业分包工程" number_format="0.00_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="6" row="13" value="大连依斯特图文导视设计工程有限公司" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="7" row="13" value="2021-02-22T00:00:00" number_format="mm-dd-yy" type="d" alignment_id="0" protection_id="1"/>
+    <Cell column="8" row="13" value="2021-03-25T00:00:00" number_format="mm-dd-yy" type="d" alignment_id="0" protection_id="1"/>
+    <Cell column="9" row="13" value="1" number_format="General" type="n" alignment_id="0" protection_id="1"/>
+    <Cell column="15" row="13" value="1" number_format="General" type="n" alignment_id="0" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="14" value="2" number_format="General" type="n" alignment_id="0" protection_id="1"/>
+    <Cell column="2" row="14" value="XX3工程" number_format="0.00_ " type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="3" row="14" value="92384.85000000001" number_format="0.00_ " type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="4" row="14" value="27236" number_format="0.00_ " type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="5" row="14" value="1、2、3号住宅楼精装修" number_format="0.00_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="6" row="14" value="北京金元建筑装饰工程有限公司" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="7" row="14" value="2020-09-04T00:00:00" number_format="mm-dd-yy" type="d" alignment_id="0" protection_id="1"/>
+    <Cell column="8" row="14" value="2021-05-22T00:00:00" number_format="mm-dd-yy" type="d" alignment_id="0" protection_id="1"/>
+    <Cell column="9" row="14" value="1" number_format="General" type="n" alignment_id="0" protection_id="1"/>
+    <Cell column="15" row="14" value="1" number_format="General" type="n" alignment_id="0" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="15" value="3" number_format="General" type="n" alignment_id="0" protection_id="1"/>
+    <Cell column="2" row="15" value="XX4工程" number_format="0.00_ " type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="3" row="15" value="56962.09" number_format="0.00_ " type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="4" row="15" value="22426" number_format="0.00_ " type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="5" row="15" value="室外消防工程" number_format="0.00_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="6" row="15" value="北京迅达成消防工程有限责任公司" number_format="General" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="7" row="15" value="2020-12-01T00:00:00" number_format="mm-dd-yy" type="d" alignment_id="0" protection_id="1"/>
+    <Cell column="8" row="15" value="2021-03-31T00:00:00" number_format="mm-dd-yy" type="d" alignment_id="0" protection_id="1"/>
+    <Cell column="11" row="15" value="1" number_format="General" type="n" alignment_id="0" protection_id="1"/>
+    <Cell column="15" row="15" value="1" number_format="General" type="n" alignment_id="0" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="16" value="指定分包合计" number_format="General" type="s" alignment_id="0" protection_id="1" min_row="16" max_row="16" min_col="1" max_col="2"/>
+    <Cell column="3" row="16" value="=SUM(C13:C15)" number_format="0.00_ " type="s" alignment_id="3" protection_id="1"/>
+    <Cell column="4" row="16" value="=SUM(D13:D15)" number_format="0.00_ " type="s" alignment_id="3" protection_id="1"/>
+    <Cell column="9" row="16" value="=SUM(I13:I15)" number_format="0_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="10" row="16" value="=SUM(J13:J15)" number_format="0_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="11" row="16" value="=SUM(K13:K15)" number_format="0_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="12" row="16" value="=SUM(L13:L15)" number_format="0_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="13" row="16" value="=SUM(M13:M15)" number_format="0_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="14" row="16" value="=SUM(N13:N15)" number_format="0_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="15" row="16" value="=SUM(O13:O15)" number_format="0_ " type="s" alignment_id="0" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="17" value="自主+指定合计" number_format="General" type="s" alignment_id="0" protection_id="1" min_row="17" max_row="17" min_col="1" max_col="2"/>
+    <Cell column="3" row="17" value="=C11+C16" number_format="0.00_ " type="s" alignment_id="3" protection_id="1"/>
+    <Cell column="4" row="17" value="=D11+D16" number_format="0.00_ " type="s" alignment_id="3" protection_id="1"/>
+    <Cell column="9" row="17" value="=I11+I16" number_format="0_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="10" row="17" value="=J11+J16" number_format="0_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="11" row="17" value="=K11+K16" number_format="0_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="12" row="17" value="=L11+L16" number_format="0_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="13" row="17" value="=M11+M16" number_format="0_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="14" row="17" value="=N11+N16" number_format="0_ " type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="15" row="17" value="=O11+O16" number_format="0_ " type="s" alignment_id="0" protection_id="1"/>
+    <br/>
+    <br/>
+    <br/>
+    <Cell column="1" row="20" value="注：1、本表由项目部填报，本单位机关汇总，仅填报本季度新签的专业工程分包招标情况。" number_format="General" type="s" alignment_id="2" protection_id="1" min_row="20" max_row="20" min_col="1" max_col="15"/>
+    <br/>
+    <Cell column="1" row="21" value="    2、统计范围：包含总包方自主分包及建设方指定分包，不含临建工程。建设单位“指定分包”应为《建设工程施工合同》约定的暂估价等“建设单位指定分包”的范围之内。建设单位没有书面指令的“暗指定”分包工程，应列入“自主分包工程”统计。" number_format="General" type="s" alignment_id="2" protection_id="1" min_row="21" max_row="21" min_col="1" max_col="16"/>
+    <br/>
+    <Cell column="1" row="22" value="    3、“工程承包造价”：指总包方承揽工程的全部造价，包括业主指定分包造价、暂定金额、暂估价等。" number_format="General" type="s" alignment_id="2" protection_id="1" min_row="22" max_row="22" min_col="1" max_col="16"/>
+    <br/>
+    <Cell column="1" row="23" value="    4、“专业工程分包类型”：指自主分包或建设单位指定分包。" number_format="General" type="s" alignment_id="2" protection_id="1" min_row="23" max_row="23" min_col="1" max_col="15"/>
+    <br/>
+    <Cell column="1" row="24" value="    5、“招标情况”：指项目部招标、本单位机关招标、外部市场招标、未招标。" number_format="General" type="s" alignment_id="2" protection_id="1" min_row="24" max_row="24" min_col="1" max_col="15"/>
+    <br/>
+    <Cell column="1" row="25" value="    6、“评标情况”：指项目部评标、机关评标、联合评标（含项目部与机关联合评标或项目部与建设方联合评标）。" number_format="General" type="s" alignment_id="2" protection_id="1" min_row="25" max_row="25" min_col="1" max_col="15"/>
+    <br/>
+  </WorkSheet>
+  <WorkSheet title="造价情况汇总">
+    <cols>
+      <col width="4.1640625" customWidth="1" style="2" min="1" max="1"/>
+      <col width="16.1640625" customWidth="1" style="7" min="2" max="2"/>
+      <col width="20.83203125" customWidth="1" style="8" min="3" max="3"/>
+      <col width="7.83203125" customWidth="1" style="110" min="4" max="4"/>
+      <col width="5" customWidth="1" style="111" min="5" max="5"/>
+      <col width="9.1640625" customWidth="1" style="110" min="6" max="6"/>
+      <col width="11.5" customWidth="1" style="110" min="7" max="7"/>
+      <col width="8.5" customWidth="1" style="110" min="8" max="8"/>
+      <col width="10.33203125" customWidth="1" style="110" min="9" max="9"/>
+      <col width="7.83203125" customWidth="1" style="110" min="10" max="10"/>
+      <col width="5" customWidth="1" style="111" min="11" max="11"/>
+      <col width="9.1640625" customWidth="1" style="110" min="12" max="12"/>
+      <col width="11.5" customWidth="1" style="110" min="13" max="13"/>
+      <col width="8.5" customWidth="1" style="110" min="14" max="14"/>
+      <col width="10.33203125" customWidth="1" style="110" min="15" max="15"/>
+      <col width="11.1640625" customWidth="1" style="110" min="16" max="17"/>
+      <col width="6.6640625" customWidth="1" style="60" min="18" max="18"/>
+      <col width="9" customWidth="1" style="7" min="19" max="16384"/>
+    </cols>
+    <rows>
+      <row ht="36.75" customFormat="1" customHeight="1" s="1" index="1"/>
+      <row ht="32.25" customHeight="1" index="2"/>
+      <row ht="22" customHeight="1" index="3"/>
+      <row ht="22" customHeight="1" index="4"/>
+      <row ht="22" customHeight="1" index="5"/>
+      <row ht="22" customFormat="1" customHeight="1" s="2" index="6"/>
+      <row ht="28" customFormat="1" customHeight="1" s="3" index="7"/>
+      <row ht="28" customFormat="1" customHeight="1" s="4" index="8"/>
+      <row ht="28" customFormat="1" customHeight="1" s="4" index="9"/>
+      <row ht="28" customFormat="1" customHeight="1" s="3" index="10"/>
+      <row ht="28" customFormat="1" customHeight="1" s="4" index="11"/>
+      <row ht="28" customFormat="1" customHeight="1" s="3" index="12"/>
+      <row ht="28" customFormat="1" customHeight="1" s="5" index="13"/>
+      <row ht="28" customFormat="1" customHeight="1" s="4" index="14"/>
+      <row ht="28" customFormat="1" customHeight="1" s="4" index="15"/>
+      <row ht="28" customFormat="1" customHeight="1" s="4" index="16"/>
+      <row ht="28" customFormat="1" customHeight="1" s="3" index="17"/>
+      <row ht="28" customFormat="1" customHeight="1" s="6" index="18"/>
+      <row ht="47" customHeight="1" index="19"/>
+      <row ht="25" customHeight="1" index="20"/>
+      <row ht="25" customHeight="1" index="24"/>
+      <row ht="41.25" customHeight="1" index="25"/>
+      <row ht="25" customHeight="1" index="26"/>
+      <row ht="25" customHeight="1" index="27"/>
+      <row ht="25" customHeight="1" index="28"/>
+      <row ht="25" customHeight="1" index="29"/>
+      <row ht="25" customHeight="1" index="30"/>
+    </rows>
+    <DataValidationList count="1">
+      <dataValidation sqref="C17" showErrorMessage="1" showInputMessage="1" allowBlank="0" type="list">
+        <formula1>"a,b,c"</formula1>
+      </dataValidation>
+    </DataValidationList>
+    <alignments>
+      <alignment horizontal="center" vertical="center" id="0"/>
+      <alignment horizontal="left" vertical="center" id="2"/>
+      <alignment horizontal="right" vertical="center" id="3"/>
+      <alignment horizontal="center" vertical="center" wrapText="1" id="4"/>
+      <alignment horizontal="left" vertical="center" wrapText="1" id="5"/>
+      <alignment horizontal="right" vertical="center" wrapText="1" id="6"/>
+      <alignment vertical="center" wrapText="1" id="7"/>
+      <alignment vertical="center" id="8"/>
+    </alignments>
+    <fills/>
+    <fonts/>
+    <protections>
+      <protection locked="1" hidden="0" id="1"/>
+    </protections>
+    <borders/>
+    <Cell column="1" row="1" value=" 2021年一季度新签专业工程分包造价情况统计表" number_format="General" type="s" alignment_id="0" protection_id="1" min_row="1" max_row="1" min_col="1" max_col="18"/>
+    <br/>
+    <Cell column="1" row="2" value="填报单位（盖章）：工程总承包部" number_format="General" type="s" alignment_id="2" protection_id="1" min_row="2" max_row="2" min_col="1" max_col="3"/>
+    <Cell column="5" row="2" value="         数据截止日期： 2021年1月1日至3月25日" number_format="General" type="s" alignment_id="0" protection_id="1" min_row="2" max_row="2" min_col="5" max_col="11"/>
+    <Cell column="16" row="2" value="                               表号：城建经16" number_format="General" type="s" alignment_id="3" protection_id="1" min_row="2" max_row="2" min_col="16" max_col="18"/>
+    <br/>
+    <Cell column="1" row="3" value="序号" number_format="General" type="s" alignment_id="4" protection_id="1" min_row="3" max_row="5" min_col="1" max_col="1"/>
+    <Cell column="2" row="3" value="项目名称" number_format="General" type="s" alignment_id="4" protection_id="1" min_row="3" max_row="5" min_col="2" max_col="2"/>
+    <Cell column="3" row="3" value="专业工程名称" number_format="General" type="s" alignment_id="4" protection_id="1" min_row="3" max_row="5" min_col="3" max_col="3"/>
+    <Cell column="4" row="3" value="专业工程总包方造价(万元)" number_format="0_);[Red]\(0\)" type="s" alignment_id="4" protection_id="1" min_row="3" max_row="3" min_col="4" max_col="9"/>
+    <Cell column="10" row="3" value="专业工程分包方造价(万元)" number_format="0_);[Red]\(0\)" type="s" alignment_id="4" protection_id="1" min_row="3" max_row="3" min_col="10" max_col="15"/>
+    <Cell column="16" row="3" value="除税造价总、分包差价（万元）" number_format="0_);[Red]\(0\)" type="s" alignment_id="4" protection_id="1" min_row="3" max_row="5" min_col="16" max_col="16"/>
+    <Cell column="17" row="3" value="除税节超额占专业工程总包方造价百分比    (±)" number_format="0_);[Red]\(0\)" type="s" alignment_id="4" protection_id="1" min_row="3" max_row="5" min_col="17" max_col="17"/>
+    <Cell column="18" row="3" value="备  注" number_format="General" type="s" alignment_id="4" protection_id="1" min_row="3" max_row="5" min_col="18" max_col="18"/>
+    <br/>
+    <Cell column="4" row="4" value="工程量" number_format="0_ " type="s" alignment_id="4" protection_id="1" min_row="4" max_row="5" min_col="4" max_col="4"/>
+    <Cell column="5" row="4" value="计量单位" number_format="General" type="s" alignment_id="4" protection_id="1" min_row="4" max_row="5" min_col="5" max_col="5"/>
+    <Cell column="6" row="4" value="除税单价" number_format="General" type="s" alignment_id="4" protection_id="1" min_row="4" max_row="5" min_col="6" max_col="6"/>
+    <Cell column="7" row="4" value="除税造价" number_format="0_);[Red]\(0\)" type="s" alignment_id="0" protection_id="1" min_row="4" max_row="5" min_col="7" max_col="7"/>
+    <Cell column="8" row="4" value="增值税" number_format="0_);[Red]\(0\)" type="s" alignment_id="4" protection_id="1" min_row="4" max_row="4" min_col="8" max_col="9"/>
+    <Cell column="10" row="4" value="工程量" number_format="General" type="s" alignment_id="4" protection_id="1" min_row="4" max_row="5" min_col="10" max_col="10"/>
+    <Cell column="11" row="4" value="计量单位" number_format="General" type="s" alignment_id="4" protection_id="1" min_row="4" max_row="5" min_col="11" max_col="11"/>
+    <Cell column="12" row="4" value="除税单价" number_format="General" type="s" alignment_id="4" protection_id="1" min_row="4" max_row="5" min_col="12" max_col="12"/>
+    <Cell column="13" row="4" value="除税造价" number_format="0_);[Red]\(0\)" type="s" alignment_id="0" protection_id="1" min_row="4" max_row="5" min_col="13" max_col="13"/>
+    <Cell column="14" row="4" value="增值税" number_format="0_);[Red]\(0\)" type="s" alignment_id="4" protection_id="1" min_row="4" max_row="4" min_col="14" max_col="15"/>
+    <br/>
+    <Cell column="8" row="5" value="增值税率" number_format="0_);[Red]\(0\)" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="9" row="5" value="增值税额" number_format="0_);[Red]\(0\)" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="14" row="5" value="增值税率" number_format="0_);[Red]\(0\)" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="15" row="5" value="增值税额" number_format="0_);[Red]\(0\)" type="s" alignment_id="0" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="6" value="1" number_format="General" type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="2" row="6" value="2" number_format="General" type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="3" row="6" value="4" number_format="General" type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="4" row="6" value="5" number_format="General" type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="5" row="6" value="6" number_format="General" type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="6" row="6" value="7" number_format="General" type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="7" row="6" value="8=5*7" number_format="0_);[Red]\(0\)" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="8" row="6" value="9" number_format="0_);[Red]\(0\)" type="n" alignment_id="0" protection_id="1"/>
+    <Cell column="9" row="6" value="10=8*9" number_format="0_);[Red]\(0\)" type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="10" row="6" value="11" number_format="General" type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="11" row="6" value="12" number_format="General" type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="12" row="6" value="13" number_format="General" type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="13" row="6" value="14=11*13" number_format="General" type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="14" row="6" value="15" number_format="General" type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="15" row="6" value="16=14*15" number_format="General" type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="16" row="6" value="17=8-14" number_format="0_);[Red]\(0\)" type="s" alignment_id="0" protection_id="1"/>
+    <Cell column="17" row="6" value="18=17/8" number_format="0_);[Red]\(0\)" type="s" alignment_id="0" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="7" value="一" number_format="0_ " type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="2" row="7" value="自主分包" number_format="0_ " type="s" alignment_id="4" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="8" value="1" number_format="General" type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="2" row="8" value="XX1工程" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="3" row="8" value="疏散照明系统专业分包" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="4" row="8" value="1" number_format="0_ " type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="5" row="8" value="项" number_format="0.00_ " type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="6" row="8" value="171.3029" number_format="0.00_ " type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="7" row="8" value="=D8*F8" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="8" row="8" value="0.09" number_format="0%" type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="9" row="8" value="=G8*H8" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="10" row="8" value="1" number_format="0_ " type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="11" row="8" value="项" number_format="0.00_ " type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="12" row="8" value="155.7299" number_format="0.00_ " type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="13" row="8" value="=J8*L8" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="14" row="8" value="0.09" number_format="0%" type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="15" row="8" value="=M8*N8" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="16" row="8" value="=G8-M8" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="17" row="8" value="=P8/G8" number_format="0.00%" type="s" alignment_id="7" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="9" value="1" number_format="General" type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="2" row="9" value="XX1工程" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="3" row="9" value="******系统专业分包" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="4" row="9" value="1" number_format="0_ " type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="5" row="9" value="项" number_format="0.00_ " type="s" alignment_id="4" protection_id="1"/>
+    <br/>
+    <Cell column="2" row="10" value="小计" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="7" row="10" value="=SUM(G8:G9)" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="9" row="10" value="=SUM(I8:I9)" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="13" row="10" value="=SUM(M8:M9)" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="15" row="10" value="=SUM(O8:O9)" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="16" row="10" value="=G10-M10" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="17" row="10" value="=P10/G10" number_format="0.00%" type="s" alignment_id="7" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="11" value="2" number_format="General" type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="2" row="11" value="XX2工程" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="3" row="11" value="室外安防工程专业分包" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="4" row="11" value="1" number_format="0_ " type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="5" row="11" value="项" number_format="0.00_ " type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="6" row="11" value="=122.91/1.09" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="7" row="11" value="=D11*F11" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="8" row="11" value="0.09" number_format="0%" type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="9" row="11" value="=G11*H11" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="10" row="11" value="1" number_format="0_ " type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="11" row="11" value="项" number_format="0.00_ " type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="12" row="11" value="=122.91/1.09" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="13" row="11" value="=J11*L11" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="14" row="11" value="0.09" number_format="0%" type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="15" row="11" value="=M11*N11" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="16" row="11" value="=G11-M11" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="17" row="11" value="=P11/G11" number_format="0.00%" type="s" alignment_id="7" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="12" value="自主分包合计" number_format="General" type="s" alignment_id="4" protection_id="1" min_row="12" max_row="12" min_col="1" max_col="2"/>
+    <Cell column="7" row="12" value="=SUM(G8:G11)" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="9" row="12" value="=SUM(I8:I11)" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="13" row="12" value="=SUM(M8:M11)" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="15" row="12" value="=SUM(O8:O11)" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="16" row="12" value="=G12-M12" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="17" row="12" value="=P12/G12" number_format="0.00%" type="s" alignment_id="7" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="13" value="二" number_format="General" type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="2" row="13" value="指定分包" number_format="General" type="s" alignment_id="4" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="14" value="1" number_format="General" type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="2" row="14" value="XX2工程" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="3" row="14" value="标识标牌专业分包工程" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="4" row="14" value="1" number_format="0_ " type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="5" row="14" value="项" number_format="0.00_ " type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="6" row="14" value="=158.77/1.09" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="7" row="14" value="=D14*F14" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="8" row="14" value="0.09" number_format="0%" type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="9" row="14" value="=G14*H14" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="10" row="14" value="1" number_format="0_ " type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="11" row="14" value="项" number_format="0.00_ " type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="12" row="14" value="139.11" number_format="0.00_ " type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="13" row="14" value="=J14*L14" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="14" row="14" value="0.09" number_format="0%" type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="15" row="14" value="=M14*N14" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="16" row="14" value="=G14-M14" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="17" row="14" value="=P14/G14" number_format="0.00%" type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="18" row="14" value="业主指定分包" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="15" value="2" number_format="General" type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="2" row="15" value="XX3工程" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="3" row="15" value="1、2、3号住宅楼精装修" number_format="0_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="4" row="15" value="1" number_format="0_ " type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="5" row="15" value="项" number_format="0.00_ " type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="6" row="15" value="=44016891.13/1.09/10000" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="7" row="15" value="=D15*F15" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="8" row="15" value="0.09" number_format="0%" type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="9" row="15" value="=G15*H15" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="10" row="15" value="1" number_format="0_ " type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="11" row="15" value="项" number_format="0.00_ " type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="12" row="15" value="4038.25" number_format="0.00_ " type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="13" row="15" value="=J15*L15" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="14" row="15" value="0.09" number_format="0%" type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="15" row="15" value="=M15*N15" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="16" row="15" value="=G15-M15" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="17" row="15" value="=P15/G15" number_format="0.00%" type="s" alignment_id="7" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="16" value="3" number_format="General" type="n" alignment_id="4" protection_id="1"/>
+    <Cell column="2" row="16" value="XX4工程" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="3" row="16" value="室外消防工程" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="4" row="16" value="1" number_format="0_ " type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="5" row="16" value="项" number_format="0.00_ " type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="6" row="16" value="219.5" number_format="0.00_ " type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="7" row="16" value="=D16*F16" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="8" row="16" value="0.09" number_format="0%" type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="9" row="16" value="=G16*H16" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="10" row="16" value="1" number_format="0_ " type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="11" row="16" value="项" number_format="0.00_ " type="s" alignment_id="4" protection_id="1"/>
+    <Cell column="12" row="16" value="=2195029.23/J16/10000" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="13" row="16" value="=J16*L16" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="14" row="16" value="0.09" number_format="0%" type="n" alignment_id="7" protection_id="1"/>
+    <Cell column="15" row="16" value="=M16*N16" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="16" row="16" value="=G16-M16" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="17" row="16" value="=P16/G16" number_format="0.00%" type="s" alignment_id="7" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="17" value="指定分包合计" number_format="General" type="s" alignment_id="4" protection_id="1" min_row="17" max_row="17" min_col="1" max_col="2"/>
+    <Cell column="7" row="17" value="=SUM(G14:G16)" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="9" row="17" value="=SUM(I14:I16)" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="13" row="17" value="=SUM(M14:M16)" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="15" row="17" value="=SUM(O14:O16)" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="16" row="17" value="=G17-M17" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="17" row="17" value="=P17/G17" number_format="0.00%" type="s" alignment_id="7" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="18" value="自主+指定合计" number_format="General" type="s" alignment_id="4" protection_id="1" min_row="18" max_row="18" min_col="1" max_col="2"/>
+    <Cell column="7" row="18" value="=G12+G17" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="9" row="18" value="=I12+I17" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="13" row="18" value="=M12+M17" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="15" row="18" value="=O12+O17" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="16" row="18" value="=G18-M18" number_format="0.00_ " type="s" alignment_id="7" protection_id="1"/>
+    <Cell column="17" row="18" value="=P18/G18" number_format="0.00%" type="s" alignment_id="7" protection_id="1"/>
+    <br/>
+    <Cell column="1" row="19" value="经营主管领导：" number_format="General" type="s" alignment_id="0" protection_id="1" min_row="19" max_row="19" min_col="1" max_col="2"/>
+    <Cell column="10" row="19" value="经营部部长：王依娜" number_format="General" type="s" alignment_id="3" protection_id="1" min_row="19" max_row="19" min_col="10" max_col="12"/>
+    <Cell column="17" row="19" value="none" number_format="0_);[Red]\(0\)" type="" alignment_id="3" protection_id="1" min_row="19" max_row="19" min_col="17" max_col="18"/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <Cell column="1" row="24" value="注：1、本表由项目部填报，本单位机关汇总，统计本季度新签专业工程分包合同造价情况。" number_format="General" type="s" alignment_id="2" protection_id="1" min_row="24" max_row="24" min_col="1" max_col="18"/>
+    <br/>
+    <Cell column="1" row="25" value="    2、统计范围：包含总包方自主分包及建设方指定分包，不含临建工程。建设单位“指定分包”应为《建设工程施工合同》约定的暂估价等“建设单位指定分包”的范围之内。建设单位没有书面指令的“暗指定”分包工程，应列入“自主分包工程”统计。" number_format="General" type="s" alignment_id="5" protection_id="1" min_row="25" max_row="25" min_col="1" max_col="18"/>
+    <br/>
+    <Cell column="1" row="26" value="    3、“工程承包造价”：指总包方承揽工程的全部造价，包括业主指定分包造价、暂定金额、暂估价等。" number_format="General" type="s" alignment_id="2" protection_id="1" min_row="26" max_row="26" min_col="1" max_col="18"/>
+    <br/>
+    <Cell column="1" row="27" value="    4、“总包方造价”：指某项专业工程总包方与建设方确定的造价。" number_format="General" type="s" alignment_id="2" protection_id="1" min_row="27" max_row="27" min_col="1" max_col="18"/>
+    <br/>
+    <Cell column="1" row="28" value="    5、“分包方造价”：指某项专业工程总包方与分包方确定的造价。" number_format="General" type="s" alignment_id="2" protection_id="1" min_row="28" max_row="28" min_col="1" max_col="18"/>
+    <br/>
+    <Cell column="1" row="29" value="    6、“综合性单价”：指完全单价，含人工+机械+材料+管理费+利润。" number_format="General" type="s" alignment_id="2" protection_id="1" min_row="29" max_row="29" min_col="1" max_col="18"/>
+    <br/>
+    <Cell column="1" row="30" value="    7、总包方造价在10万元以内的专业工程可合并填报。" number_format="General" type="s" alignment_id="2" protection_id="1" min_row="30" max_row="30" min_col="1" max_col="18"/>
+    <br/>
+    <br/>
+  </WorkSheet>
+</WorkBook>

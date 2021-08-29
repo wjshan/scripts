@@ -1,0 +1,2518 @@
+<?xml version="1.0" encoding="utf-8"?><UniversalInterchange xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Header>
+    <SenderID>AGZSZXPRD</SenderID>
+    <RecipientID>CA999A_WW</RecipientID>
+  </Header>
+  <Body>
+    <UniversalShipment xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Shipment>
+    <DataContext>
+      <DataSourceCollection>
+        <DataSource>
+          <Type>ForwardingConsol</Type>
+          <Key>CCAN21081045</Key>
+        </DataSource>
+        <DataSource>
+          <Type>ForwardingShipment</Type>
+          <Key>SAECAN21081033</Key>
+        </DataSource>
+      </DataSourceCollection>
+
+      <ActionPurpose>
+        <Code>HWB</Code>
+        <Description>HAWB DATA FOR CARRIER CCSP</Description>
+      </ActionPurpose>
+      <Company>
+        <Code>SZX</Code>
+        <Country>
+          <Code>CN</Code>
+          <Name>China</Name>
+        </Country>
+        <Name>Shenzhen Anda Shun International Logistics Co Ltd</Name>
+      </Company>
+      <DataProvider>AGZPRDSZX</DataProvider>
+      <EnterpriseID>AGZ</EnterpriseID>
+      <EventBranch>
+        <Code>CAN</Code>
+        <Name>GUANGZHOU BRANCH</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>AIR</Code>
+        <Name>空运部</Name>
+      </EventDepartment>
+      <EventType>
+        <Code>Z60</Code>
+        <Description>可自定义事件 60</Description>
+      </EventType>
+      <EventUser>
+        <Code>ZYJ</Code>
+        <Name>Yan Zhong</Name>
+      </EventUser>
+      <ServerID>PRD</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2021-08-26T09:53:00</TriggerDate>
+      <TriggerDescription>CCSP分单直连对接提交</TriggerDescription>
+      <TriggerType>Trigger</TriggerType>
+
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>DCR</Code>
+          <Description>起运港承运人</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <AgentsReference></AgentsReference>
+    <AWBServiceLevel>
+      <Code>STD</Code>
+      <Description>标准</Description>
+    </AWBServiceLevel>
+    <BookingConfirmationReference></BookingConfirmationReference>
+    <CarrierCorrectedChargeable>1217.000</CarrierCorrectedChargeable>
+    <CarrierCorrectedVolume>7.308</CarrierCorrectedVolume>
+    <CarrierCorrectedVolumeUnit>
+      <Code>M3</Code>
+      <Description>立方米</Description>
+    </CarrierCorrectedVolumeUnit>
+    <CarrierCorrectedWeight>1074.000</CarrierCorrectedWeight>
+    <CarrierCorrectedWeightUnit>
+      <Code>KG</Code>
+      <Description>公斤</Description>
+    </CarrierCorrectedWeightUnit>
+    <ChargeableRate>52.6400</ChargeableRate>
+    <ContainerCount>0</ContainerCount>
+    <ContainerMode>
+      <Code>LSE</Code>
+      <Description>空运散货</Description>
+    </ContainerMode>
+    <DocumentedChargeable>1218</DocumentedChargeable>
+    <DocumentedVolume>7.308</DocumentedVolume>
+    <DocumentedWeight>1074</DocumentedWeight>
+    <FreightRate>52.6400</FreightRate>
+    <FreightRateCurrency>
+      <Code>CNY</Code>
+      <Description>人民币</Description>
+    </FreightRateCurrency>
+    <IsCFSRegistered>false</IsCFSRegistered>
+    <IsDirectBooking>false</IsDirectBooking>
+    <IsForwardRegistered>true</IsForwardRegistered>
+    <IsHazardous>false</IsHazardous>
+    <IsNeutralMaster>false</IsNeutralMaster>
+    <LloydsIMO></LloydsIMO>
+    <ManifestedChargeable>1218</ManifestedChargeable>
+    <ManifestedVolume>7.308</ManifestedVolume>
+    <ManifestedWeight>1074</ManifestedWeight>
+    <NoCopyBills>1</NoCopyBills>
+    <NoOriginalBills>0</NoOriginalBills>
+    <OuterPacks>0</OuterPacks>
+    <PaymentMethod>
+      <Code>PPD</Code>
+      <Description>预付</Description>
+    </PaymentMethod>
+    <PlaceOfDelivery>
+      <Code>USJFK</Code>
+      <Name>John F. Kennedy Apt/New York</Name>
+    </PlaceOfDelivery>
+    <PlaceOfIssue>
+      <Code></Code>
+    </PlaceOfIssue>
+    <PlaceOfReceipt>
+      <Code>CNCAN</Code>
+      <Name>Guangzhou Baiyun International Apt</Name>
+    </PlaceOfReceipt>
+    <PortFirstForeign>
+      <Code></Code>
+    </PortFirstForeign>
+    <PortLastForeign>
+      <Code></Code>
+    </PortLastForeign>
+    <PortOfDischarge>
+      <Code>USJFK</Code>
+      <Name>John F. Kennedy Apt/New York</Name>
+    </PortOfDischarge>
+    <PortOfFirstArrival>
+      <Code></Code>
+    </PortOfFirstArrival>
+    <PortOfLoading>
+      <Code>CNCAN</Code>
+      <Name>Guangzhou Baiyun International Apt</Name>
+    </PortOfLoading>
+    <ReceivingForwarderHandlingType>
+      <Code></Code>
+    </ReceivingForwarderHandlingType>
+    <ReleaseType>
+      <Code>TXL</Code>
+      <Description>Telex Release</Description>
+    </ReleaseType>
+    <RequiresTemperatureControl>false</RequiresTemperatureControl>
+    <ScreeningStatus>
+      <Code>CLR</Code>
+      <Description>安全</Description>
+    </ScreeningStatus>
+    <SendingForwarderHandlingType>
+      <Code></Code>
+    </SendingForwarderHandlingType>
+    <ShipmentType>
+      <Code>AGT</Code>
+      <Description>代理</Description>
+    </ShipmentType>
+    <TotalNoOfPacks>71</TotalNoOfPacks>
+    <TotalNoOfPacksPackageType>
+      <Code>PKG</Code>
+      <Description>装箱</Description>
+    </TotalNoOfPacksPackageType>
+    <TotalPreallocatedChargeable>0.000</TotalPreallocatedChargeable>
+    <TotalPreallocatedVolume>0.000</TotalPreallocatedVolume>
+    <TotalPreallocatedVolumeUnit>
+      <Code></Code>
+    </TotalPreallocatedVolumeUnit>
+    <TotalPreallocatedWeight>0.000</TotalPreallocatedWeight>
+    <TotalPreallocatedWeightUnit>
+      <Code></Code>
+    </TotalPreallocatedWeightUnit>
+    <TotalVolume>7.308</TotalVolume>
+    <TotalVolumeUnit>
+      <Code>M3</Code>
+      <Description>立方米</Description>
+    </TotalVolumeUnit>
+    <TotalWeight>1074</TotalWeight>
+    <TotalWeightUnit>
+      <Code>KG</Code>
+      <Description>公斤</Description>
+    </TotalWeightUnit>
+    <TransportMode>
+      <Code>AIR</Code>
+      <Description>空运</Description>
+    </TransportMode>
+    <VesselName></VesselName>
+    <VoyageFlightNo>CA1322</VoyageFlightNo>
+    <WayBillNumber>999-60098533</WayBillNumber>
+    <WayBillType>
+      <Code>MWB</Code>
+      <Description>Master Waybill</Description>
+    </WayBillType>
+
+    <CarrierDocumentsOverride>
+      <AWBHeader>
+        <AgentAccountNo></AgentAccountNo>
+        <AgentIATACode>08-3 1649/0</AgentIATACode>
+        <AgentName>SHENZHEN ANDASHUN CAN BRANCH</AgentName>
+        <AgentPlace></AgentPlace>
+        <AirportOfDepartureAndRequestRouteText>Guangzhou Baiyun International Apt</AirportOfDepartureAndRequestRouteText>
+        <AirportOfDestinationCode>JFK</AirportOfDestinationCode>
+        <AirportOfDestinationText>John F. Kennedy Apt/New York</AirportOfDestinationText>
+        <AlsoNotify>
+          <AddressLine1></AddressLine1>
+          <AddressLine2></AddressLine2>
+          <City></City>
+          <ContactDetail></ContactDetail>
+          <ContactType>
+            <Code></Code>
+          </ContactType>
+          <Country>
+            <Code></Code>
+          </Country>
+          <IsAddressOverriddenForPaperWaybill>false</IsAddressOverriddenForPaperWaybill>
+          <Name></Name>
+          <PaperOverrideLine1></PaperOverrideLine1>
+          <PaperOverrideLine2></PaperOverrideLine2>
+          <PaperOverrideLine3></PaperOverrideLine3>
+          <PaperOverrideLine4></PaperOverrideLine4>
+          <PaperOverrideLine5></PaperOverrideLine5>
+          <PostCode></PostCode>
+          <State></State>
+        </AlsoNotify>
+        <AmountOfInsurance>0</AmountOfInsurance>
+        <AsAgreedOn1stAWBSet>false</AsAgreedOn1stAWBSet>
+        <AsAgreedOn2ndAWBSet>false</AsAgreedOn2ndAWBSet>
+        <AsAgreedTypeOn1stAWBSet>NON</AsAgreedTypeOn1stAWBSet>
+        <AsAgreedTypeOn2ndAWBSet>NON</AsAgreedTypeOn2ndAWBSet>
+        <AWBIssueDate>2021-08-26T00:00:00</AWBIssueDate>
+        <AWBIssuePlace>GUANGZHOU</AWBIssuePlace>
+        <AWBIssuerApprovedExporterNumber></AWBIssuerApprovedExporterNumber>
+        <AWBIssuerExtraInfo></AWBIssuerExtraInfo>
+        <AWBIssuerSignature>SHENZHEN ANDASHUN CAN BRANCH</AWBIssuerSignature>
+        <AWBNumber>60098533</AWBNumber>
+        <AWBType>
+          <Code></Code>
+        </AWBType>
+        <CargoSecurityDeclaration>
+          <AdditionalScreeningMethods></AdditionalScreeningMethods>
+          <AgentApprovalCategory>
+            <Code>RA</Code>
+            <Description>管制代理人</Description>
+          </AgentApprovalCategory>
+          <AgentApprovalCountry>
+            <Code>CN</Code>
+            <Name>中国</Name>
+          </AgentApprovalCountry>
+          <AgentApprovalExpiryDate></AgentApprovalExpiryDate>
+          <AgentApprovalNumber></AgentApprovalNumber>
+          <SecurityStatus>
+            <Code>NSC</Code>
+            <Description>针对客机或全货机，货运尚未进行安检</Description>
+          </SecurityStatus>
+          <SecurityStatusIssueDate>2021-08-26T00:00:00</SecurityStatusIssueDate>
+          <SecurityStatusIssuedBy>Yan Zhong</SecurityStatusIssuedBy>
+          <TSASecurityStatement>Shenzhen Anda Shun International Logistics Co Ltd has reviewed all available documentation and has determined that none of the cargo being offered in this consignment or consolidation has/either originated in, transferred from, or transited through any point in Egypt, Somalia, Syrian Arab Republic, Yemen.</TSASecurityStatement>
+
+          <ScreeningMethodCollection>
+            <ScreeningMethod>
+              <Code>UNK</Code>
+              <Description></Description>
+            </ScreeningMethod>
+          </ScreeningMethodCollection>
+        </CargoSecurityDeclaration>
+        <ChargesPayment>
+          <Code>PP</Code>
+          <Description>All Charges Prepaid Cash</Description>
+        </ChargesPayment>
+        <Consignee>
+          <AccountCode></AccountCode>
+          <AddressLine1>100 GARDEN CITY PLZ STE 102</AddressLine1>
+          <AddressLine2>GARDEN CITY,NY 11530</AddressLine2>
+          <City>GARDEN CITY</City>
+          <ContactDetail>+17189953853</ContactDetail>
+          <ContactType>
+            <Code>TE</Code>
+            <Description>电话</Description>
+          </ContactType>
+          <Country>
+            <Code>US</Code>
+            <Name>美国</Name>
+          </Country>
+          <IsAddressOverriddenForPaperWaybill>false</IsAddressOverriddenForPaperWaybill>
+          <Name>C.H. ROBINSON INTERNATIONAL, INC./JFK GATEWAY</Name>
+          <PaperOverrideLine1>C.H. ROBINSON INTERNATIONAL, INC./JFK GATEWAY</PaperOverrideLine1>
+          <PaperOverrideLine2>100 GARDEN CITY PLZ STE 102</PaperOverrideLine2>
+          <PaperOverrideLine3>GARDEN CITY,NY 11530</PaperOverrideLine3>
+          <PaperOverrideLine4>GARDEN CITY NY US</PaperOverrideLine4>
+          <PaperOverrideLine5>TE +17189953853 .</PaperOverrideLine5>
+          <PostCode>11530</PostCode>
+          <State>NY</State>
+        </Consignee>
+        <Currency>
+          <Code>CNY</Code>
+          <Description>人民币</Description>
+        </Currency>
+        <ForwardingAgentReference>999-60098533</ForwardingAgentReference>
+        <HandlingInformation>EAP;</HandlingInformation>
+        <IssuedByAddress1>CAPITAL INTERNATIONAL AIRPORT</IssuedByAddress1>
+        <IssuedByAddress2>BEIJING, 100621, PEOPLE'S REPUBLIC OF CHINA</IssuedByAddress2>
+        <IssuedByName>AIR CHINA LTD</IssuedByName>
+        <NetRateCode></NetRateCode>
+        <OptionalShippingInformation1></OptionalShippingInformation1>
+        <OptionalShippingInformation2></OptionalShippingInformation2>
+        <OriginCode>CAN</OriginCode>
+        <OtherChargesPayment>
+          <Code>P</Code>
+          <Description>预付</Description>
+        </OtherChargesPayment>
+        <Requested1stCarrier>CA</Requested1stCarrier>
+        <Requested1stFlight>1322</Requested1stFlight>
+        <Requested1stFlightDate>26</Requested1stFlightDate>
+        <Requested2ndCarrier>CA</Requested2ndCarrier>
+        <Requested2ndFlight></Requested2ndFlight>
+        <Requested2ndFlightDate>27</Requested2ndFlightDate>
+        <Routing1stBy>CA</Routing1stBy>
+        <Routing1stTo>PEK</Routing1stTo>
+        <Routing2ndBy>CA</Routing2ndBy>
+        <Routing2ndTo>JFK</Routing2ndTo>
+        <Routing3rdBy></Routing3rdBy>
+        <Routing3rdTo></Routing3rdTo>
+        <Shipper>
+          <AccountCode></AccountCode>
+          <AddressLine1>RM 3901-3 TOWER B, CENTER PLAZA</AddressLine1>
+          <AddressLine2>510620 GUANGZHOU</AddressLine2>
+          <City>GUANGZHOU</City>
+          <ContactDetail>+862081297033</ContactDetail>
+          <ContactType>
+            <Code>TE</Code>
+            <Description>电话</Description>
+          </ContactType>
+          <Country>
+            <Code>CN</Code>
+            <Name>中国</Name>
+          </Country>
+          <IsAddressOverriddenForPaperWaybill>false</IsAddressOverriddenForPaperWaybill>
+          <Name>GF GATEWAY GUANGZHOU</Name>
+          <PaperOverrideLine1>GF GATEWAY GUANGZHOU</PaperOverrideLine1>
+          <PaperOverrideLine2>RM 3901-3 TOWER B, CENTER PLAZA</PaperOverrideLine2>
+          <PaperOverrideLine3>510620 GUANGZHOU</PaperOverrideLine3>
+          <PaperOverrideLine4>GUANGZHOU  CN</PaperOverrideLine4>
+          <PaperOverrideLine5>TE +862081297033 .</PaperOverrideLine5>
+          <PostCode>510620</PostCode>
+          <State></State>
+        </Shipper>
+        <ShipperExtraInfoLine1></ShipperExtraInfoLine1>
+        <ShipperExtraInfoLine2></ShipperExtraInfoLine2>
+        <ShippersLoadAndCount>0</ShippersLoadAndCount>
+        <ShippersSignature>Yan Zhong</ShippersSignature>
+        <SpecialHandlingCode></SpecialHandlingCode>
+        <TotalTaxesCollect>0</TotalTaxesCollect>
+        <TotalTaxesPrepaid>0</TotalTaxesPrepaid>
+        <TotalValuationCollect>0</TotalValuationCollect>
+        <TotalValuationPrepaid>0</TotalValuationPrepaid>
+        <ValueForCarriage>0</ValueForCarriage>
+        <ValueForCustoms>0</ValueForCustoms>
+        <WeightChargesPayment>
+          <Code>P</Code>
+          <Description>预付</Description>
+        </WeightChargesPayment>
+
+        <OtherChargesCollection>
+          <OtherCharges>
+            <Amount>4833.0000</Amount>
+            <ChargeCode>
+              <Code>MY</Code>
+              <Description>Fuel surcharge - due issuing carrier</Description>
+            </ChargeCode>
+            <Description>Fuel Surcharge (air)</Description>
+            <EntitlementDue>
+              <Code>C</Code>
+              <Description>承运人</Description>
+            </EntitlementDue>
+            <PrepaidCollect>
+              <Code>PPD</Code>
+              <Description>预付</Description>
+            </PrepaidCollect>
+          </OtherCharges>
+          <OtherCharges>
+            <Amount>50.0000</Amount>
+            <ChargeCode>
+              <Code>AW</Code>
+              <Description>Air waybill fee</Description>
+            </ChargeCode>
+            <Description>Origin Airway Bill Fee</Description>
+            <EntitlementDue>
+              <Code>C</Code>
+              <Description>承运人</Description>
+            </EntitlementDue>
+            <PrepaidCollect>
+              <Code>PPD</Code>
+              <Description>预付</Description>
+            </PrepaidCollect>
+          </OtherCharges>
+          <OtherCharges>
+            <Amount>1460.4000</Amount>
+            <ChargeCode>
+              <Code>SC</Code>
+              <Description>Security charge</Description>
+            </ChargeCode>
+            <Description>War Risk Surcharge</Description>
+            <EntitlementDue>
+              <Code>C</Code>
+              <Description>承运人</Description>
+            </EntitlementDue>
+            <PrepaidCollect>
+              <Code>PPD</Code>
+              <Description>预付</Description>
+            </PrepaidCollect>
+          </OtherCharges>
+        </OtherChargesCollection>
+
+        <RateLineCollection>
+          <RateLine>
+            <ChargeableWeight>1217</ChargeableWeight>
+            <CommodityItem></CommodityItem>
+            <Consolidation>Consolidation as per attached list</Consolidation>
+            <GrossWeight>1074</GrossWeight>
+            <LineNumber>1</LineNumber>
+            <NatureAndQtyOfGoodsType>
+              <Code>C</Code>
+              <Description>合并科目</Description>
+            </NatureAndQtyOfGoodsType>
+            <NoOfPiecesOrRCP>71</NoOfPiecesOrRCP>
+            <RateChargeOrDiscount>52.64</RateChargeOrDiscount>
+            <RateClass>
+              <Code>Q</Code>
+              <Description>45 千克以上普通货物运价</Description>
+            </RateClass>
+            <TotalCharge>64062.88</TotalCharge>
+            <WeightUnit>
+              <Code>K</Code>
+              <Description>公斤</Description>
+            </WeightUnit>
+          </RateLine>
+          <RateLine>
+            <ChargeableWeight>0</ChargeableWeight>
+            <CommodityItem></CommodityItem>
+            <Dimensions>
+              <Count>1</Count>
+              <Height>122</Height>
+              <Length>120</Length>
+              <Unit>
+                <Code>CM</Code>
+                <Description>厘米</Description>
+              </Unit>
+              <Width>100</Width>
+            </Dimensions>
+            <GrossWeight>0</GrossWeight>
+            <LineNumber>2</LineNumber>
+            <NatureAndQtyOfGoodsType>
+              <Code>D</Code>
+              <Description>尺寸</Description>
+            </NatureAndQtyOfGoodsType>
+            <NoOfPiecesOrRCP>0</NoOfPiecesOrRCP>
+            <RateChargeOrDiscount>0</RateChargeOrDiscount>
+            <RateClass>
+              <Code></Code>
+            </RateClass>
+            <TotalCharge>0</TotalCharge>
+            <WeightUnit>
+              <Code></Code>
+            </WeightUnit>
+          </RateLine>
+          <RateLine>
+            <ChargeableWeight>0</ChargeableWeight>
+            <CommodityItem></CommodityItem>
+            <Dimensions>
+              <Count>1</Count>
+              <Height>88</Height>
+              <Length>120</Length>
+              <Unit>
+                <Code>CM</Code>
+                <Description>厘米</Description>
+              </Unit>
+              <Width>100</Width>
+            </Dimensions>
+            <GrossWeight>0</GrossWeight>
+            <LineNumber>3</LineNumber>
+            <NatureAndQtyOfGoodsType>
+              <Code>D</Code>
+              <Description>尺寸</Description>
+            </NatureAndQtyOfGoodsType>
+            <NoOfPiecesOrRCP>0</NoOfPiecesOrRCP>
+            <RateChargeOrDiscount>0</RateChargeOrDiscount>
+            <RateClass>
+              <Code></Code>
+            </RateClass>
+            <TotalCharge>0</TotalCharge>
+            <WeightUnit>
+              <Code></Code>
+            </WeightUnit>
+          </RateLine>
+          <RateLine>
+            <ChargeableWeight>0</ChargeableWeight>
+            <CommodityItem></CommodityItem>
+            <Dimensions>
+              <Count>6</Count>
+              <Height>36</Height>
+              <Length>46</Length>
+              <Unit>
+                <Code>CM</Code>
+                <Description>厘米</Description>
+              </Unit>
+              <Width>40</Width>
+            </Dimensions>
+            <GrossWeight>0</GrossWeight>
+            <LineNumber>4</LineNumber>
+            <NatureAndQtyOfGoodsType>
+              <Code>D</Code>
+              <Description>尺寸</Description>
+            </NatureAndQtyOfGoodsType>
+            <NoOfPiecesOrRCP>0</NoOfPiecesOrRCP>
+            <RateChargeOrDiscount>0</RateChargeOrDiscount>
+            <RateClass>
+              <Code></Code>
+            </RateClass>
+            <TotalCharge>0</TotalCharge>
+            <WeightUnit>
+              <Code></Code>
+            </WeightUnit>
+          </RateLine>
+          <RateLine>
+            <ChargeableWeight>0</ChargeableWeight>
+            <CommodityItem></CommodityItem>
+            <Dimensions>
+              <Count>4</Count>
+              <Height>34</Height>
+              <Length>45</Length>
+              <Unit>
+                <Code>CM</Code>
+                <Description>厘米</Description>
+              </Unit>
+              <Width>33</Width>
+            </Dimensions>
+            <GrossWeight>0</GrossWeight>
+            <LineNumber>5</LineNumber>
+            <NatureAndQtyOfGoodsType>
+              <Code>D</Code>
+              <Description>尺寸</Description>
+            </NatureAndQtyOfGoodsType>
+            <NoOfPiecesOrRCP>0</NoOfPiecesOrRCP>
+            <RateChargeOrDiscount>0</RateChargeOrDiscount>
+            <RateClass>
+              <Code></Code>
+            </RateClass>
+            <TotalCharge>0</TotalCharge>
+            <WeightUnit>
+              <Code></Code>
+            </WeightUnit>
+          </RateLine>
+          <RateLine>
+            <ChargeableWeight>0</ChargeableWeight>
+            <CommodityItem></CommodityItem>
+            <Dimensions>
+              <Count>3</Count>
+              <Height>41</Height>
+              <Length>45</Length>
+              <Unit>
+                <Code>CM</Code>
+                <Description>厘米</Description>
+              </Unit>
+              <Width>31</Width>
+            </Dimensions>
+            <GrossWeight>0</GrossWeight>
+            <LineNumber>6</LineNumber>
+            <NatureAndQtyOfGoodsType>
+              <Code>D</Code>
+              <Description>尺寸</Description>
+            </NatureAndQtyOfGoodsType>
+            <NoOfPiecesOrRCP>0</NoOfPiecesOrRCP>
+            <RateChargeOrDiscount>0</RateChargeOrDiscount>
+            <RateClass>
+              <Code></Code>
+            </RateClass>
+            <TotalCharge>0</TotalCharge>
+            <WeightUnit>
+              <Code></Code>
+            </WeightUnit>
+          </RateLine>
+          <RateLine>
+            <ChargeableWeight>0</ChargeableWeight>
+            <CommodityItem></CommodityItem>
+            <Dimensions>
+              <Count>3</Count>
+              <Height>40</Height>
+              <Length>46</Length>
+              <Unit>
+                <Code>CM</Code>
+                <Description>厘米</Description>
+              </Unit>
+              <Width>42</Width>
+            </Dimensions>
+            <GrossWeight>0</GrossWeight>
+            <LineNumber>7</LineNumber>
+            <NatureAndQtyOfGoodsType>
+              <Code>D</Code>
+              <Description>尺寸</Description>
+            </NatureAndQtyOfGoodsType>
+            <NoOfPiecesOrRCP>0</NoOfPiecesOrRCP>
+            <RateChargeOrDiscount>0</RateChargeOrDiscount>
+            <RateClass>
+              <Code></Code>
+            </RateClass>
+            <TotalCharge>0</TotalCharge>
+            <WeightUnit>
+              <Code></Code>
+            </WeightUnit>
+          </RateLine>
+          <RateLine>
+            <ChargeableWeight>0</ChargeableWeight>
+            <CommodityItem></CommodityItem>
+            <Dimensions>
+              <Count>35</Count>
+              <Height>42</Height>
+              <Length>46</Length>
+              <Unit>
+                <Code>CM</Code>
+                <Description>厘米</Description>
+              </Unit>
+              <Width>42</Width>
+            </Dimensions>
+            <GrossWeight>0</GrossWeight>
+            <LineNumber>8</LineNumber>
+            <NatureAndQtyOfGoodsType>
+              <Code>D</Code>
+              <Description>尺寸</Description>
+            </NatureAndQtyOfGoodsType>
+            <NoOfPiecesOrRCP>0</NoOfPiecesOrRCP>
+            <RateChargeOrDiscount>0</RateChargeOrDiscount>
+            <RateClass>
+              <Code></Code>
+            </RateClass>
+            <TotalCharge>0</TotalCharge>
+            <WeightUnit>
+              <Code></Code>
+            </WeightUnit>
+          </RateLine>
+          <RateLine>
+            <ChargeableWeight>0</ChargeableWeight>
+            <CommodityItem></CommodityItem>
+            <Dimensions>
+              <Count>5</Count>
+              <Height>42</Height>
+              <Length>46</Length>
+              <Unit>
+                <Code>CM</Code>
+                <Description>厘米</Description>
+              </Unit>
+              <Width>34</Width>
+            </Dimensions>
+            <GrossWeight>0</GrossWeight>
+            <LineNumber>9</LineNumber>
+            <NatureAndQtyOfGoodsType>
+              <Code>D</Code>
+              <Description>尺寸</Description>
+            </NatureAndQtyOfGoodsType>
+            <NoOfPiecesOrRCP>0</NoOfPiecesOrRCP>
+            <RateChargeOrDiscount>0</RateChargeOrDiscount>
+            <RateClass>
+              <Code></Code>
+            </RateClass>
+            <TotalCharge>0</TotalCharge>
+            <WeightUnit>
+              <Code></Code>
+            </WeightUnit>
+          </RateLine>
+          <RateLine>
+            <ChargeableWeight>0</ChargeableWeight>
+            <CommodityItem></CommodityItem>
+            <Dimensions>
+              <Count>8</Count>
+              <Height>35</Height>
+              <Length>41</Length>
+              <Unit>
+                <Code>CM</Code>
+                <Description>厘米</Description>
+              </Unit>
+              <Width>31</Width>
+            </Dimensions>
+            <GrossWeight>0</GrossWeight>
+            <LineNumber>10</LineNumber>
+            <NatureAndQtyOfGoodsType>
+              <Code>D</Code>
+              <Description>尺寸</Description>
+            </NatureAndQtyOfGoodsType>
+            <NoOfPiecesOrRCP>0</NoOfPiecesOrRCP>
+            <RateChargeOrDiscount>0</RateChargeOrDiscount>
+            <RateClass>
+              <Code></Code>
+            </RateClass>
+            <TotalCharge>0</TotalCharge>
+            <WeightUnit>
+              <Code></Code>
+            </WeightUnit>
+          </RateLine>
+          <RateLine>
+            <ChargeableWeight>0</ChargeableWeight>
+            <CommodityItem></CommodityItem>
+            <Dimensions>
+              <Count>5</Count>
+              <Height>31</Height>
+              <Length>41</Length>
+              <Unit>
+                <Code>CM</Code>
+                <Description>厘米</Description>
+              </Unit>
+              <Width>41</Width>
+            </Dimensions>
+            <GrossWeight>0</GrossWeight>
+            <LineNumber>11</LineNumber>
+            <NatureAndQtyOfGoodsType>
+              <Code>D</Code>
+              <Description>尺寸</Description>
+            </NatureAndQtyOfGoodsType>
+            <NoOfPiecesOrRCP>0</NoOfPiecesOrRCP>
+            <RateChargeOrDiscount>0</RateChargeOrDiscount>
+            <RateClass>
+              <Code></Code>
+            </RateClass>
+            <TotalCharge>0</TotalCharge>
+            <WeightUnit>
+              <Code></Code>
+            </WeightUnit>
+          </RateLine>
+        </RateLineCollection>
+      </AWBHeader>
+    </CarrierDocumentsOverride>
+
+    <CustomizedFieldCollection>
+      <CustomizedField>
+        <DataType>String</DataType>
+        <Key>CALC Negotiated Wgt</Key>
+        <Value>Y</Value>
+      </CustomizedField>
+      <CustomizedField>
+        <DataType>String</DataType>
+        <Key>Create User</Key>
+        <Value>Ivy Zhang</Value>
+      </CustomizedField>
+      <CustomizedField>
+        <DataType>String</DataType>
+        <Key>Custom Type</Key>
+        <Value>E</Value>
+      </CustomizedField>
+      <CustomizedField>
+        <DataType>String</DataType>
+        <Key>SelfProduct Type</Key>
+        <Value>A</Value>
+      </CustomizedField>
+      <CustomizedField>
+        <DataType>String</DataType>
+        <Key>报关方式</Key>
+        <Value></Value>
+      </CustomizedField>
+      <CustomizedField>
+        <DataType>String</DataType>
+        <Key>拼箱创建者</Key>
+        <Value></Value>
+      </CustomizedField>
+      <CustomizedField>
+        <DataType>String</DataType>
+        <Key>自有产品类型</Key>
+        <Value></Value>
+      </CustomizedField>
+      <CustomizedField>
+        <DataType>String</DataType>
+        <Key>核算协议重量</Key>
+        <Value></Value>
+      </CustomizedField>
+      <CustomizedField>
+        <DataType>String</DataType>
+        <Key>主单协议重量</Key>
+        <Value></Value>
+      </CustomizedField>
+      <CustomizedField>
+        <DataType>String</DataType>
+        <Key>分单实际计费重</Key>
+        <Value></Value>
+      </CustomizedField>
+      <CustomizedField>
+        <DataType>String</DataType>
+        <Key>账单分泡计费重</Key>
+        <Value></Value>
+      </CustomizedField>
+    </CustomizedFieldCollection>
+
+    <DateCollection>
+      <Date>
+        <Type>ShippedOnBoard</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>BillIssued</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>FirstArrivalInCountry</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>FirstForeignArrival</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>LastForeignDeparture</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>CutOffDate</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+    </DateCollection>
+
+    <MilestoneCollection>
+      <Milestone>
+        <Description>Udpate Assign User</Description>
+        <EventCode>WTA</EventCode>
+        <Sequence>1</Sequence>
+        <ActualDate>2021-08-25T15:56:42.883</ActualDate>
+        <ConditionReference></ConditionReference>
+        <ConditionType></ConditionType>
+        <EstimatedDate></EstimatedDate>
+      </Milestone>
+      <Milestone>
+        <Description>E2E Receiving Forwarding Agent-US(Manual)</Description>
+        <EventCode>Z00</EventCode>
+        <Sequence>5</Sequence>
+        <ActualDate></ActualDate>
+        <ConditionReference></ConditionReference>
+        <ConditionType></ConditionType>
+        <EstimatedDate></EstimatedDate>
+      </Milestone>
+      <Milestone>
+        <Description>E2E Receiving Forwarding Agent (AutoWay)</Description>
+        <EventCode>DDV</EventCode>
+        <Sequence>6</Sequence>
+        <ActualDate></ActualDate>
+        <ConditionReference>*Delivery Agent Manifest Landscape*</ConditionReference>
+        <ConditionType>RFW</ConditionType>
+        <EstimatedDate></EstimatedDate>
+      </Milestone>
+      <Milestone>
+        <Description>Departure from First Load Port</Description>
+        <EventCode>DEP</EventCode>
+        <Sequence>10</Sequence>
+        <ActualDate></ActualDate>
+        <ConditionReference>LOC=&lt;FirstLeg.Origin&gt;,FAC=CTO</ConditionReference>
+        <ConditionType>RFP</ConditionType>
+        <EstimatedDate>2021-08-26T10:05:00</EstimatedDate>
+      </Milestone>
+      <Milestone>
+        <Description>1st Transport Leg Arrival</Description>
+        <EventCode>ARV</EventCode>
+        <Sequence>20</Sequence>
+        <ActualDate></ActualDate>
+        <ConditionReference>LOC=&lt;FirstLeg.Destination&gt;,FAC=CTO</ConditionReference>
+        <ConditionType>RFP</ConditionType>
+        <EstimatedDate>2021-08-26T15:54:00</EstimatedDate>
+      </Milestone>
+      <Milestone>
+        <Description>2nd Transport Leg Departure</Description>
+        <EventCode>DEP</EventCode>
+        <Sequence>25</Sequence>
+        <ActualDate></ActualDate>
+        <ConditionReference>LOC=&lt;SecondLeg.Origin&gt;,FAC=CTO</ConditionReference>
+        <ConditionType>RFP</ConditionType>
+        <EstimatedDate>2021-08-27T15:55:00</EstimatedDate>
+      </Milestone>
+      <Milestone>
+        <Description>Arrival at Final Discharge Port</Description>
+        <EventCode>ARV</EventCode>
+        <Sequence>40</Sequence>
+        <ActualDate></ActualDate>
+        <ConditionReference>LOC=&lt;LastLeg.Destination&gt;,FAC=CTO</ConditionReference>
+        <ConditionType>RFP</ConditionType>
+        <EstimatedDate>2021-08-27T15:55:00</EstimatedDate>
+      </Milestone>
+      <Milestone>
+        <Description>CCSP国际电子运单直连提交--CA  CAN</Description>
+        <EventCode>Z65</EventCode>
+        <Sequence>1017</Sequence>
+        <ActualDate>2021-08-25T19:38:00</ActualDate>
+        <ConditionReference>("&lt;Event.UserCode&gt;"!="~BP"&amp;&amp;"&lt;Event.UserCode&gt;"!="~AD")</ConditionReference>
+        <ConditionType>MCR</ConditionType>
+        <EstimatedDate></EstimatedDate>
+      </Milestone>
+    </MilestoneCollection>
+
+    <NoteCollection Content="Partial">
+      <Note>
+        <Description>Internal Work Notes</Description>
+        <IsCustomDescription>false</IsCustomDescription>
+        <NoteText>一主两分，艺骏</NoteText>
+        <NoteContext>
+          <Code>AAA</Code>
+          <Description>Module: A - 全部, Direction: A - 全部, Freight: A - 全部</Description>
+        </NoteContext>
+        <Visibility>
+          <Code>INT</Code>
+          <Description>内部</Description>
+        </Visibility>
+      </Note>
+      <Note>
+        <Description>Goods Handling Instructions</Description>
+        <IsCustomDescription>false</IsCustomDescription>
+        <NoteText>EAP;</NoteText>
+        <NoteContext>
+          <Code>AAA</Code>
+          <Description>Module: A - 全部, Direction: A - 全部, Freight: A - 全部</Description>
+        </NoteContext>
+        <Visibility>
+          <Code>PUB</Code>
+          <Description>客户可见</Description>
+        </Visibility>
+      </Note>
+    </NoteCollection>
+
+    <OrganizationAddressCollection>
+      <OrganizationAddress>
+        <AddressType>Creditor</AddressType>
+        <Address1>广州市白云国际机场广州国航大厦A区304</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>广州市白云国际机场广州国航大厦A区304</AddressShortCode>
+        <City>广州</City>
+        <CompanyName>中国国际货运航空有限公司广州营业部</CompanyName>
+        <Country>
+          <Code>CN</Code>
+          <Name>China</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <GovRegNum>91110000710932056L</GovRegNum>
+        <GovRegNumType>
+          <Code>VAT</Code>
+          <Description>增值税纳税人识别号</Description>
+        </GovRegNumType>
+        <OrganizationCode>AIRCHICAN</OrganizationCode>
+        <Phone>+862036067287</Phone>
+        <Port>
+          <Code>CNGGZ</Code>
+          <Name>Guangzhou</Name>
+        </Port>
+        <Postcode>510470</Postcode>
+        <ScreeningStatus>
+          <Code>CLR</Code>
+          <Description>安全</Description>
+        </ScreeningStatus>
+        <State Description="Guangdong">44</State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>ReceivingForwarderAddress</AddressType>
+        <Address1>100 GARDEN CITY PLZ STE 102</Address1>
+        <Address2>GARDEN CITY,NY 11530</Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>100 GARDEN CITY PLZ STE 1</AddressShortCode>
+        <City>GARDEN CITY</City>
+        <CompanyName>C.H. ROBINSON INTERNATIONAL, INC./JFK GATEWAY</CompanyName>
+        <Country>
+          <Code>US</Code>
+          <Name>United States</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>CHROBIJFK3</OrganizationCode>
+        <Phone>+17189953853</Phone>
+        <Port>
+          <Code>USJFK</Code>
+          <Name>John F. Kennedy Apt/New York</Name>
+        </Port>
+        <Postcode>11530</Postcode>
+        <ScreeningStatus>
+          <Code>CLR</Code>
+          <Description>安全</Description>
+        </ScreeningStatus>
+        <State Description="New York">NY</State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>ShippingLineAddress</AddressType>
+        <Address1>CAPITAL INTERNATIONAL AIRPORT</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>CAPITAL INTERNATIONAL AIR</AddressShortCode>
+        <City>PEK</City>
+        <CompanyName>CA 999 AIR CHINA INTERNATIONAL CORPORATION</CompanyName>
+        <Country>
+          <Code>CN</Code>
+          <Name>China</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>CA999A_WW</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>CNPEK</Code>
+          <Name>Beijing Shoudu International Apt</Name>
+        </Port>
+        <Postcode>100621</Postcode>
+        <ScreeningStatus>
+          <Code>CLR</Code>
+          <Description>安全</Description>
+        </ScreeningStatus>
+        <State Description="Beijing">11</State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>SendingForwarderAddress</AddressType>
+        <Address1>RM 3901-3 TOWER B, CENTER PLAZA</Address1>
+        <Address2>510620 GUANGZHOU</Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>RM 3901-3 TOWER B, CENTER</AddressShortCode>
+        <City>GUANGZHOU</City>
+        <CompanyName>GF GATEWAY GUANGZHOU</CompanyName>
+        <Country>
+          <Code>CN</Code>
+          <Name>China</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>GFGATECAN</OrganizationCode>
+        <Phone>+862081297033</Phone>
+        <Port>
+          <Code>CNCAN</Code>
+          <Name>Guangzhou Baiyun International Apt</Name>
+        </Port>
+        <Postcode>510620</Postcode>
+        <ScreeningStatus>
+          <Code>CLR</Code>
+          <Description>安全</Description>
+        </ScreeningStatus>
+        <State></State>
+      </OrganizationAddress>
+    </OrganizationAddressCollection>
+
+    <SubShipmentCollection>
+      <SubShipment>
+        <DataContext>
+          <DataSourceCollection>
+            <DataSource>
+              <Type>ForwardingShipment</Type>
+              <Key>SAECAN21081033</Key>
+            </DataSource>
+          </DataSourceCollection>
+        </DataContext>
+
+        <ActualChargeable>423.000</ActualChargeable>
+        <AdditionalTerms></AdditionalTerms>
+        <BookingConfirmationReference></BookingConfirmationReference>
+        <CartageWaybillNumber></CartageWaybillNumber>
+        <CFSReference></CFSReference>
+        <CommunityTransitStatus>
+          <Code></Code>
+        </CommunityTransitStatus>
+        <ContainerCount>0</ContainerCount>
+        <ContainerMode>
+          <Code>LSE</Code>
+          <Description>空运散货</Description>
+        </ContainerMode>
+        <DocumentedChargeable>423.000</DocumentedChargeable>
+        <DocumentedVolume>2.520</DocumentedVolume>
+        <DocumentedWeight>423.000</DocumentedWeight>
+        <FreightRate>0.0000</FreightRate>
+        <FreightRateCurrency>
+          <Code></Code>
+        </FreightRateCurrency>
+        <GoodsDescription></GoodsDescription>
+        <GoodsValue>0.0000</GoodsValue>
+        <GoodsValueCurrency>
+          <Code>CNY</Code>
+          <Description>人民币</Description>
+        </GoodsValueCurrency>
+        <HBLAWBChargesDisplay>
+          <Code>ALL</Code>
+          <Description>显示预付及到付费用</Description>
+        </HBLAWBChargesDisplay>
+        <HBLContainerPackModeOverride></HBLContainerPackModeOverride>
+        <HouseBillOfLadingType>
+          <Code></Code>
+        </HouseBillOfLadingType>
+        <InsuranceValue>0.0000</InsuranceValue>
+        <InsuranceValueCurrency>
+          <Code>CNY</Code>
+          <Description>人民币</Description>
+        </InsuranceValueCurrency>
+        <InterimReceiptNumber></InterimReceiptNumber>
+        <IsBooking>true</IsBooking>
+        <IsCancelled>false</IsCancelled>
+        <IsCFSRegistered>false</IsCFSRegistered>
+        <IsDirectBooking>false</IsDirectBooking>
+        <IsForwardRegistered>true</IsForwardRegistered>
+        <IsHighRisk>false</IsHighRisk>
+        <IsNeutralMaster>false</IsNeutralMaster>
+        <IsShipping>false</IsShipping>
+        <IsSplitShipment>false</IsSplitShipment>
+        <LloydsIMO></LloydsIMO>
+        <ManifestedChargeable>423.000</ManifestedChargeable>
+        <ManifestedVolume>2.520</ManifestedVolume>
+        <ManifestedWeight>423.000</ManifestedWeight>
+        <NoCopyBills>3</NoCopyBills>
+        <NoOriginalBills>3</NoOriginalBills>
+        <OuterPacks>2</OuterPacks>
+        <OuterPacksPackageType>
+          <Code>CTN</Code>
+          <Description>纸箱</Description>
+        </OuterPacksPackageType>
+        <PackingOrder>0</PackingOrder>
+        <PortOfDestination>
+          <Code>USJFK</Code>
+          <Name>John F. Kennedy Apt/New York</Name>
+        </PortOfDestination>
+        <PortOfDischarge>
+          <Code>USJFK</Code>
+          <Name>John F. Kennedy Apt/New York</Name>
+        </PortOfDischarge>
+        <PortOfFirstArrival>
+          <Code></Code>
+        </PortOfFirstArrival>
+        <PortOfLoading>
+          <Code>CNCAN</Code>
+          <Name>Guangzhou Baiyun International Apt</Name>
+        </PortOfLoading>
+        <PortOfOrigin>
+          <Code>CNCAN</Code>
+          <Name>Guangzhou Baiyun International Apt</Name>
+        </PortOfOrigin>
+        <ReleaseType>
+          <Code>OBL</Code>
+          <Description>Original Bill of Lading</Description>
+        </ReleaseType>
+        <ScreeningStatus>
+          <Code>CLR</Code>
+          <Description>安全</Description>
+        </ScreeningStatus>
+        <ServiceLevel>
+          <Code>STD</Code>
+          <Description>标准</Description>
+        </ServiceLevel>
+        <ShipmentIncoTerm>
+          <Code>CIF</Code>
+          <Description>Cost, Insurance And Freight</Description>
+        </ShipmentIncoTerm>
+        <ShipmentType>
+          <Code>STD</Code>
+          <Description>标准分单</Description>
+        </ShipmentType>
+        <ShippedOnBoard>
+          <Code>SHP</Code>
+          <Description>已装运</Description>
+        </ShippedOnBoard>
+        <ShipperCODAmount>0.0000</ShipperCODAmount>
+        <ShipperCODPayMethod>
+          <Code></Code>
+        </ShipperCODPayMethod>
+        <TotalNoOfPacks>0</TotalNoOfPacks>
+        <TotalNoOfPacksPackageType>
+          <Code>CTN</Code>
+          <Description>纸箱</Description>
+        </TotalNoOfPacksPackageType>
+        <TotalVolume>2.520</TotalVolume>
+        <TotalVolumeUnit>
+          <Code>M3</Code>
+          <Description>立方米</Description>
+        </TotalVolumeUnit>
+        <TotalWeight>423.000</TotalWeight>
+        <TotalWeightUnit>
+          <Code>KG</Code>
+          <Description>公斤</Description>
+        </TotalWeightUnit>
+        <TranshipToOtherCFS>false</TranshipToOtherCFS>
+        <TransportMode>
+          <Code>AIR</Code>
+          <Description>空运</Description>
+        </TransportMode>
+        <VesselName></VesselName>
+        <VoyageFlightNo>CA1322</VoyageFlightNo>
+        <WarehouseLocation></WarehouseLocation>
+        <WayBillNumber>366710687ZHN</WayBillNumber>
+        <WayBillType>
+          <Code>HWB</Code>
+          <Description>House Waybill</Description>
+        </WayBillType>
+
+        <CarrierDocumentsOverride>
+          <AWBHeader>
+            <AgentAccountNo></AgentAccountNo>
+            <AgentIATACode>08-3 1649/0</AgentIATACode>
+            <AgentName>SHENZHEN ANDASHUN CAN BRANCH</AgentName>
+            <AgentPlace></AgentPlace>
+            <AirportOfDepartureAndRequestRouteText>Guangzhou Baiyun International Apt</AirportOfDepartureAndRequestRouteText>
+            <AirportOfDestinationCode>JFK</AirportOfDestinationCode>
+            <AirportOfDestinationText>John F. Kennedy Apt/New York</AirportOfDestinationText>
+            <AlsoNotify>
+              <AddressLine1></AddressLine1>
+              <AddressLine2></AddressLine2>
+              <City></City>
+              <ContactDetail></ContactDetail>
+              <ContactType>
+                <Code></Code>
+              </ContactType>
+              <Country>
+                <Code></Code>
+              </Country>
+              <IsAddressOverriddenForPaperWaybill>false</IsAddressOverriddenForPaperWaybill>
+              <Name></Name>
+              <PaperOverrideLine1></PaperOverrideLine1>
+              <PaperOverrideLine2></PaperOverrideLine2>
+              <PaperOverrideLine3></PaperOverrideLine3>
+              <PaperOverrideLine4></PaperOverrideLine4>
+              <PaperOverrideLine5></PaperOverrideLine5>
+              <PostCode></PostCode>
+              <State></State>
+            </AlsoNotify>
+            <AmountOfInsurance>0</AmountOfInsurance>
+            <AsAgreedOn1stAWBSet>true</AsAgreedOn1stAWBSet>
+            <AsAgreedOn2ndAWBSet>true</AsAgreedOn2ndAWBSet>
+            <AsAgreedTypeOn1stAWBSet>ALL</AsAgreedTypeOn1stAWBSet>
+            <AsAgreedTypeOn2ndAWBSet>ALL</AsAgreedTypeOn2ndAWBSet>
+            <AWBIssueDate>2021-08-26T00:00:00</AWBIssueDate>
+            <AWBIssuePlace>GUANGZHOU</AWBIssuePlace>
+            <AWBIssuerApprovedExporterNumber></AWBIssuerApprovedExporterNumber>
+            <AWBIssuerExtraInfo></AWBIssuerExtraInfo>
+            <AWBIssuerSignature>SHENZHEN ANDASHUN CAN BRANCH</AWBIssuerSignature>
+            <AWBNumber>60098533</AWBNumber>
+            <AWBType>
+              <Code></Code>
+            </AWBType>
+            <CargoSecurityDeclaration>
+              <AdditionalScreeningMethods></AdditionalScreeningMethods>
+              <AgentApprovalCategory>
+                <Code></Code>
+                <Description></Description>
+              </AgentApprovalCategory>
+              <AgentApprovalCountry>
+                <Code></Code>
+              </AgentApprovalCountry>
+              <AgentApprovalExpiryDate></AgentApprovalExpiryDate>
+              <AgentApprovalNumber></AgentApprovalNumber>
+              <SecurityStatusIssueDate></SecurityStatusIssueDate>
+              <SecurityStatusIssuedBy></SecurityStatusIssuedBy>
+              <TSASecurityStatement>Shenzhen Anda Shun International Logistics Co Ltd has reviewed all available documentation and has determined that none of the cargo being offered in this consignment or consolidation has/either originated in, transferred from, or transited through any point in Egypt, Somalia, Syrian Arab Republic, Yemen.</TSASecurityStatement>
+            </CargoSecurityDeclaration>
+            <ChargesPayment>
+              <Code>PP</Code>
+              <Description>All Charges Prepaid Cash</Description>
+            </ChargesPayment>
+            <Consignee>
+              <AccountCode>MARCENJFK</AccountCode>
+              <AddressLine1>106 CENTRAL AVE</AddressLine1>
+              <AddressLine2>CORTLAND NY 13045 UNITED STATES</AddressLine2>
+              <City>CORTLAND</City>
+              <ContactDetail>+17189953853</ContactDetail>
+              <ContactType>
+                <Code>TE</Code>
+                <Description>电话</Description>
+              </ContactType>
+              <Country>
+                <Code>US</Code>
+                <Name>美国</Name>
+              </Country>
+              <IsAddressOverriddenForPaperWaybill>false</IsAddressOverriddenForPaperWaybill>
+              <Name>MARIETTA CORPORATION -CENTRAL PLANT</Name>
+              <PaperOverrideLine1>MARIETTA CORPORATION -CENTRAL PLANT</PaperOverrideLine1>
+              <PaperOverrideLine2>106 CENTRAL AVE</PaperOverrideLine2>
+              <PaperOverrideLine3>CORTLAND NY 13045 UNITED STATES</PaperOverrideLine3>
+              <PaperOverrideLine4>CORTLAND NY US</PaperOverrideLine4>
+              <PaperOverrideLine5>TE +17189953853</PaperOverrideLine5>
+              <PostCode>13045</PostCode>
+              <State>NY</State>
+            </Consignee>
+            <Currency>
+              <Code>CNY</Code>
+              <Description>人民币</Description>
+            </Currency>
+            <ForwardingAgentReference>HAWB No: 366710687ZH</ForwardingAgentReference>
+            <HandlingInformation></HandlingInformation>
+            <IssuedByAddress1>ROOM 2504-2505 EAST TOWER YANGCHENG INTERNATIONAL</IssuedByAddress1>
+            <IssuedByAddress2>COMMERCIAL CENTER NO.122 TIYU DONG ROAD, GUANGZHOU</IssuedByAddress2>
+            <IssuedByName>SHENZHEN ANDA SHUN INTERNATIONAL LOGISTICS CO.,LTD</IssuedByName>
+            <NetRateCode></NetRateCode>
+            <OptionalShippingInformation1>TERMS: CIF</OptionalShippingInformation1>
+            <OptionalShippingInformation2>71</OptionalShippingInformation2>
+            <OriginCode>CAN</OriginCode>
+            <OtherChargesPayment>
+              <Code>P</Code>
+              <Description>预付</Description>
+            </OtherChargesPayment>
+            <Requested1stCarrier>CA</Requested1stCarrier>
+            <Requested1stFlight>1322</Requested1stFlight>
+            <Requested1stFlightDate>26</Requested1stFlightDate>
+            <Requested2ndCarrier>CA</Requested2ndCarrier>
+            <Requested2ndFlight></Requested2ndFlight>
+            <Requested2ndFlightDate>27</Requested2ndFlightDate>
+            <Routing1stBy>CA</Routing1stBy>
+            <Routing1stTo>PEK</Routing1stTo>
+            <Routing2ndBy>CA</Routing2ndBy>
+            <Routing2ndTo>JFK</Routing2ndTo>
+            <Routing3rdBy></Routing3rdBy>
+            <Routing3rdTo></Routing3rdTo>
+            <Shipper>
+              <AccountCode>SILGLOCAN</AccountCode>
+              <AddressLine1>ROOM 1502-A, EASEY COMMERCIAL</AddressLine1>
+              <AddressLine2>BUILDING, 253-261 HENNESSY ROAD,WAICHAI</AddressLine2>
+              <City>HONG KONG</City>
+              <ContactDetail>+862081297033</ContactDetail>
+              <ContactType>
+                <Code>TE</Code>
+                <Description>电话</Description>
+              </ContactType>
+              <Country>
+                <Code>CN</Code>
+                <Name>中国</Name>
+              </Country>
+              <IsAddressOverriddenForPaperWaybill>false</IsAddressOverriddenForPaperWaybill>
+              <Name>SILVERBACK GLOBAL RESOURCES LIMITED</Name>
+              <PaperOverrideLine1>SILVERBACK GLOBAL RESOURCES LIMITED</PaperOverrideLine1>
+              <PaperOverrideLine2>ROOM 1502-A, EASEY COMMERCIAL</PaperOverrideLine2>
+              <PaperOverrideLine3>BUILDING, 253-261 HENNESSY ROAD,WAICHAI</PaperOverrideLine3>
+              <PaperOverrideLine4>HONG KONG  CN</PaperOverrideLine4>
+              <PaperOverrideLine5>TE +862081297033</PaperOverrideLine5>
+              <PostCode>999077</PostCode>
+              <State></State>
+            </Shipper>
+            <ShipperExtraInfoLine1></ShipperExtraInfoLine1>
+            <ShipperExtraInfoLine2></ShipperExtraInfoLine2>
+            <ShippersLoadAndCount>0</ShippersLoadAndCount>
+            <ShippersSignature>Yan Zhong</ShippersSignature>
+            <SpecialHandlingCode></SpecialHandlingCode>
+            <TotalTaxesCollect>0</TotalTaxesCollect>
+            <TotalTaxesPrepaid>0</TotalTaxesPrepaid>
+            <TotalValuationCollect>0</TotalValuationCollect>
+            <TotalValuationPrepaid>0</TotalValuationPrepaid>
+            <ValueForCarriage>0</ValueForCarriage>
+            <ValueForCustoms>0</ValueForCustoms>
+            <WeightChargesPayment>
+              <Code>P</Code>
+              <Description>预付</Description>
+            </WeightChargesPayment>
+
+            <RateLineCollection>
+              <RateLine>
+                <ChargeableWeight>423.000</ChargeableWeight>
+                <CommodityItem></CommodityItem>
+                <GoodsDescription>PUMP,30MM,NATURAL COLOR</GoodsDescription>
+                <GrossWeight>423</GrossWeight>
+                <LineNumber>1</LineNumber>
+                <NatureAndQtyOfGoodsType>
+                  <Code>G</Code>
+                  <Description>货物描述</Description>
+                </NatureAndQtyOfGoodsType>
+                <NoOfPiecesOrRCP>2</NoOfPiecesOrRCP>
+                <RateChargeOrDiscount>168.37</RateChargeOrDiscount>
+                <RateClass>
+                  <Code>Q</Code>
+                  <Description>45 千克以上普通货物运价</Description>
+                </RateClass>
+                <TotalCharge>71221.5000</TotalCharge>
+                <WeightUnit>
+                  <Code>K</Code>
+                  <Description>公斤</Description>
+                </WeightUnit>
+              </RateLine>
+              <RateLine>
+                <ChargeableWeight>0</ChargeableWeight>
+                <CommodityItem></CommodityItem>
+                <GoodsDescription>KIMBERLY CLARK</GoodsDescription>
+                <GrossWeight>0</GrossWeight>
+                <LineNumber>2</LineNumber>
+                <NatureAndQtyOfGoodsType>
+                  <Code>G</Code>
+                  <Description>货物描述</Description>
+                </NatureAndQtyOfGoodsType>
+                <NoOfPiecesOrRCP>0</NoOfPiecesOrRCP>
+                <RateChargeOrDiscount>0</RateChargeOrDiscount>
+                <RateClass>
+                  <Code></Code>
+                </RateClass>
+                <TotalCharge>0</TotalCharge>
+                <WeightUnit>
+                  <Code></Code>
+                </WeightUnit>
+              </RateLine>
+              <RateLine>
+                <ChargeableWeight>0</ChargeableWeight>
+                <CommodityItem></CommodityItem>
+                <GoodsDescription>DIMS 120x100x122 CM x 1</GoodsDescription>
+                <GrossWeight>0</GrossWeight>
+                <LineNumber>3</LineNumber>
+                <NatureAndQtyOfGoodsType>
+                  <Code>G</Code>
+                  <Description>货物描述</Description>
+                </NatureAndQtyOfGoodsType>
+                <NoOfPiecesOrRCP>0</NoOfPiecesOrRCP>
+                <RateChargeOrDiscount>0</RateChargeOrDiscount>
+                <RateClass>
+                  <Code></Code>
+                </RateClass>
+                <TotalCharge>0</TotalCharge>
+                <WeightUnit>
+                  <Code></Code>
+                </WeightUnit>
+              </RateLine>
+              <RateLine>
+                <ChargeableWeight>0</ChargeableWeight>
+                <CommodityItem></CommodityItem>
+                <GoodsDescription>DIMS 120x100x88 CM x 1</GoodsDescription>
+                <GrossWeight>0</GrossWeight>
+                <LineNumber>4</LineNumber>
+                <NatureAndQtyOfGoodsType>
+                  <Code>G</Code>
+                  <Description>货物描述</Description>
+                </NatureAndQtyOfGoodsType>
+                <NoOfPiecesOrRCP>0</NoOfPiecesOrRCP>
+                <RateChargeOrDiscount>0</RateChargeOrDiscount>
+                <RateClass>
+                  <Code></Code>
+                </RateClass>
+                <TotalCharge>0</TotalCharge>
+                <WeightUnit>
+                  <Code></Code>
+                </WeightUnit>
+              </RateLine>
+              <RateLine>
+                <ChargeableWeight>0</ChargeableWeight>
+                <CommodityItem></CommodityItem>
+                <GoodsDescription>VOL 2.520 M3</GoodsDescription>
+                <GrossWeight>0</GrossWeight>
+                <LineNumber>5</LineNumber>
+                <NatureAndQtyOfGoodsType>
+                  <Code>G</Code>
+                  <Description>货物描述</Description>
+                </NatureAndQtyOfGoodsType>
+                <NoOfPiecesOrRCP>0</NoOfPiecesOrRCP>
+                <RateChargeOrDiscount>0</RateChargeOrDiscount>
+                <RateClass>
+                  <Code></Code>
+                </RateClass>
+                <TotalCharge>0</TotalCharge>
+                <WeightUnit>
+                  <Code></Code>
+                </WeightUnit>
+              </RateLine>
+            </RateLineCollection>
+          </AWBHeader>
+        </CarrierDocumentsOverride>
+
+        <LocalProcessing>
+          <ArrivalCartageRef></ArrivalCartageRef>
+          <DeliveryCartageAdvised></DeliveryCartageAdvised>
+          <DeliveryCartageCompleted></DeliveryCartageCompleted>
+          <DeliveryLabourCharge>0.0000</DeliveryLabourCharge>
+          <DeliveryLabourTime></DeliveryLabourTime>
+          <DeliveryRequiredBy></DeliveryRequiredBy>
+          <DeliveryRequiredFrom></DeliveryRequiredFrom>
+          <DeliveryTruckWaitCharge>0.0000</DeliveryTruckWaitCharge>
+          <DeliveryTruckWaitTime></DeliveryTruckWaitTime>
+          <DemurrageOnDeliveryCharge>0.0000</DemurrageOnDeliveryCharge>
+          <DemurrageOnDeliveryTime></DemurrageOnDeliveryTime>
+          <DemurrageOnPickupCharge>0.0000</DemurrageOnPickupCharge>
+          <DemurrageOnPickupTime></DemurrageOnPickupTime>
+          <EstimatedDelivery></EstimatedDelivery>
+          <EstimatedPickup></EstimatedPickup>
+          <ExportStatement>
+            <Code></Code>
+          </ExportStatement>
+          <FCLAvailable></FCLAvailable>
+          <FCLDeliveryDetentionCharge>0.0000</FCLDeliveryDetentionCharge>
+          <FCLDeliveryDetentionDays>0</FCLDeliveryDetentionDays>
+          <FCLDeliveryDetentionFreeDays>0</FCLDeliveryDetentionFreeDays>
+          <FCLDeliveryEquipmentNeeded>
+            <Code>PSL</Code>
+            <Description>场地提供升降机</Description>
+          </FCLDeliveryEquipmentNeeded>
+          <FCLPickupDetentionCharge>0.0000</FCLPickupDetentionCharge>
+          <FCLPickupDetentionDays>0</FCLPickupDetentionDays>
+          <FCLPickupDetentionFreeDays>0</FCLPickupDetentionFreeDays>
+          <FCLPickupEquipmentNeeded>
+            <Code>PSL</Code>
+            <Description>场地提供升降机</Description>
+          </FCLPickupEquipmentNeeded>
+          <FCLStorageCommences></FCLStorageCommences>
+          <HasProhibitedPackaging>false</HasProhibitedPackaging>
+          <InsuranceRequired>false</InsuranceRequired>
+          <IsContingencyRelease>false</IsContingencyRelease>
+          <LCLAirStorageCharge>0.0000</LCLAirStorageCharge>
+          <LCLAirStorageDaysOrHours>0</LCLAirStorageDaysOrHours>
+          <LCLAvailable></LCLAvailable>
+          <LCLDatesOverrideConsol>false</LCLDatesOverrideConsol>
+          <LCLStorageCommences></LCLStorageCommences>
+          <PickupCartageAdvised></PickupCartageAdvised>
+          <PickupCartageCompleted></PickupCartageCompleted>
+          <PickupLabourCharge>0.0000</PickupLabourCharge>
+          <PickupLabourTime></PickupLabourTime>
+          <PickupRequiredBy></PickupRequiredBy>
+          <PickupRequiredFrom></PickupRequiredFrom>
+          <PickupTruckWaitCharge>0.0000</PickupTruckWaitCharge>
+          <PickupTruckWaitTime></PickupTruckWaitTime>
+          <PrintOptionForPackagesOnAWB>
+            <Code>ALL</Code>
+            <Description>尺寸与体积，如果适用。</Description>
+          </PrintOptionForPackagesOnAWB>
+        </LocalProcessing>
+
+        <CustomizedFieldCollection>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>Add Address</Key>
+            <Value>广州艺骏</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>Add Address</Key>
+            <Value>广州艺骏</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>BookingAgent</Key>
+            <Value>CA</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>BookingAgent</Key>
+            <Value>CA</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>Business Unit</Key>
+            <Value>C</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>Business Unit</Key>
+            <Value>C</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>Collection Type</Key>
+            <Value>COL</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>Collection Type</Key>
+            <Value>COL</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>Consol Full Name</Key>
+            <Value>Ivy Zhang</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>Product Name</Key>
+            <Value>足球服装</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>Product Name</Key>
+            <Value>足球服装</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>Sale FullName</Key>
+            <Value>Leo Liang</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>Sale FullName</Key>
+            <Value>Leo Liang</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>SaleRepCode</Key>
+            <Value>LLN</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>SaleRepCode</Key>
+            <Value>LLN</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>ST OP</Key>
+            <Value>Ivy Zhang</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>ST SAL</Key>
+            <Value>Leo Liang</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>异地配货主单号</Key>
+            <Value></Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>系统其他地址信息</Key>
+            <Value></Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>中文品名</Key>
+            <Value></Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>协议重量</Key>
+            <Value></Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>实际计费重</Key>
+            <Value></Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>分抛计费重</Key>
+            <Value></Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>系统拼箱操作员</Key>
+            <Value></Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>系统货运操作员</Key>
+            <Value></Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>系统订舱销售员</Key>
+            <Value></Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>系统货运销售员</Key>
+            <Value></Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>系统揽货方式</Key>
+            <Value></Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>订舱代理</Key>
+            <Value></Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>分单发票体积</Key>
+            <Value></Value>
+          </CustomizedField>
+        </CustomizedFieldCollection>
+
+        <DateCollection>
+          <Date>
+            <Type>BookingConfirmed</Type>
+            <IsEstimate>false</IsEstimate>
+            <Value>2021-08-25T10:05:00</Value>
+          </Date>
+          <Date>
+            <Type>Received</Type>
+            <IsEstimate>false</IsEstimate>
+            <Value></Value>
+          </Date>
+          <Date>
+            <Type>Departure</Type>
+            <IsEstimate>true</IsEstimate>
+            <Value>2021-08-26T10:05:00</Value>
+          </Date>
+          <Date>
+            <Type>Arrival</Type>
+            <IsEstimate>true</IsEstimate>
+            <Value>2021-08-27T15:55:00</Value>
+          </Date>
+          <Date>
+            <Type>ShippedOnBoard</Type>
+            <IsEstimate>false</IsEstimate>
+            <Value></Value>
+          </Date>
+          <Date>
+            <Type>BillIssued</Type>
+            <IsEstimate>false</IsEstimate>
+            <Value></Value>
+          </Date>
+        </DateCollection>
+
+        <MilestoneCollection>
+          <Milestone>
+            <Description>CCSP分单直连对接提交-CAN</Description>
+            <EventCode>Z60</EventCode>
+            <Sequence>500</Sequence>
+            <ActualDate>2021-08-26T09:53:00</ActualDate>
+            <ConditionReference></ConditionReference>
+            <ConditionType></ConditionType>
+            <EstimatedDate></EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>Pickup Cartage Complete/Finalised</Description>
+            <EventCode>PCF</EventCode>
+            <Sequence>5</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference></ConditionReference>
+            <ConditionType></ConditionType>
+            <EstimatedDate></EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>Pickup Cartage Advised</Description>
+            <EventCode>PCA</EventCode>
+            <Sequence>6</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference></ConditionReference>
+            <ConditionType></ConditionType>
+            <EstimatedDate></EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>Origin Receival from Wharf / Depot</Description>
+            <EventCode>GIN</EventCode>
+            <Sequence>10</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference>FAC=CTO</ConditionReference>
+            <ConditionType>RFP</ConditionType>
+            <EstimatedDate></EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>All Export Documents Received</Description>
+            <EventCode>AED</EventCode>
+            <Sequence>15</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference></ConditionReference>
+            <ConditionType></ConditionType>
+            <EstimatedDate></EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>Load Port Dept  MAWB:(*JS_JK_MasterBillNum*)</Description>
+            <EventCode>DEP</EventCode>
+            <Sequence>40</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference>FAC=CTO,LOC=&lt;FirstLeg.Origin&gt;</ConditionReference>
+            <ConditionType>RFP</ConditionType>
+            <EstimatedDate></EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>Delivery Cartage Complete/Finalised</Description>
+            <EventCode>DCF</EventCode>
+            <Sequence>70</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference></ConditionReference>
+            <ConditionType></ConditionType>
+            <EstimatedDate></EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>Update Default Value</Description>
+            <EventCode>WTA</EventCode>
+            <Sequence>100</Sequence>
+            <ActualDate>2021-08-25T15:48:52.877</ActualDate>
+            <ConditionReference>("&lt;Event.UserCode&gt;"!="~BP"&amp;&amp;"&lt;Event.UserCode&gt;"!="~AD")</ConditionReference>
+            <ConditionType>MCR</ConditionType>
+            <EstimatedDate></EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>Update Sale Rep</Description>
+            <EventCode>JED</EventCode>
+            <Sequence>101</Sequence>
+            <ActualDate>2021-08-25T10:06:42.633</ActualDate>
+            <ConditionReference></ConditionReference>
+            <ConditionType></ConditionType>
+            <EstimatedDate></EstimatedDate>
+          </Milestone>
+        </MilestoneCollection>
+
+        <NoteCollection Content="Partial">
+          <Note>
+            <Description>Internal Work Notes</Description>
+            <IsCustomDescription>false</IsCustomDescription>
+            <NoteText>CA/26 71件，1082kg，7.18cbm，2个托盘100 120 84cm  足球服装  自入
+leo
+59.5+tc</NoteText>
+            <NoteContext>
+              <Code>AAA</Code>
+              <Description>Module: A - 全部, Direction: A - 全部, Freight: A - 全部</Description>
+            </NoteContext>
+            <Visibility>
+              <Code>INT</Code>
+              <Description>内部</Description>
+            </Visibility>
+          </Note>
+          <Note>
+            <Description>Detailed Goods Description</Description>
+            <IsCustomDescription>false</IsCustomDescription>
+            <NoteText>PUMP,30MM,NATURAL COLOR KIMBERLY CLARK</NoteText>
+            <NoteContext>
+              <Code>AAA</Code>
+              <Description>Module: A - 全部, Direction: A - 全部, Freight: A - 全部</Description>
+            </NoteContext>
+            <Visibility>
+              <Code>PUB</Code>
+              <Description>客户可见</Description>
+            </Visibility>
+          </Note>
+        </NoteCollection>
+
+        <OrganizationAddressCollection>
+          <OrganizationAddress>
+            <AddressType>ConsignorDocumentaryAddress</AddressType>
+            <Address1>ROOM 1502-A, EASEY COMMERCIAL</Address1>
+            <Address2>BUILDING, 253-261 HENNESSY ROAD,WAICHAI</Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>ROOM 1502-A, EASEY COMMER</AddressShortCode>
+            <City>HONG KONG</City>
+            <CompanyName>SILVERBACK GLOBAL RESOURCES LIMITED</CompanyName>
+            <Country>
+              <Code>CN</Code>
+              <Name>China</Name>
+            </Country>
+            <Email></Email>
+            <Fax></Fax>
+            <OrganizationCode>SILGLOCAN</OrganizationCode>
+            <Phone>+862081297033</Phone>
+            <Port>
+              <Code>CNCAN</Code>
+              <Name>Guangzhou Baiyun International Apt</Name>
+            </Port>
+            <Postcode>999077</Postcode>
+            <ScreeningStatus>
+              <Code>CLR</Code>
+              <Description>安全</Description>
+            </ScreeningStatus>
+            <State></State>
+          </OrganizationAddress>
+          <OrganizationAddress>
+            <AddressType>ConsignorPickupDeliveryAddress</AddressType>
+            <Address1>ROOM 1502-A, EASEY COMMERCIAL</Address1>
+            <Address2>BUILDING, 253-261 HENNESSY ROAD,WAICHAI</Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>ROOM 1502-A, EASEY COMMER</AddressShortCode>
+            <City>HONG KONG</City>
+            <CompanyName>SILVERBACK GLOBAL RESOURCES LIMITED</CompanyName>
+            <Country>
+              <Code>CN</Code>
+              <Name>China</Name>
+            </Country>
+            <Email></Email>
+            <Fax></Fax>
+            <OrganizationCode>SILGLOCAN</OrganizationCode>
+            <Phone>+862081297033</Phone>
+            <Port>
+              <Code>CNCAN</Code>
+              <Name>Guangzhou Baiyun International Apt</Name>
+            </Port>
+            <Postcode>999077</Postcode>
+            <ScreeningStatus>
+              <Code>CLR</Code>
+              <Description>安全</Description>
+            </ScreeningStatus>
+            <State></State>
+          </OrganizationAddress>
+          <OrganizationAddress>
+            <AddressType>ConsigneeDocumentaryAddress</AddressType>
+            <Address1>106 CENTRAL AVE</Address1>
+            <Address2>CORTLAND NY 13045 UNITED STATES</Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>106 CENTRAL AVE</AddressShortCode>
+            <City>CORTLAND</City>
+            <CompanyName>MARIETTA CORPORATION -CENTRAL PLANT</CompanyName>
+            <Country>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </Country>
+            <Email></Email>
+            <Fax></Fax>
+            <OrganizationCode>MARCENJFK</OrganizationCode>
+            <Phone>+17189953853</Phone>
+            <Port>
+              <Code>USJFK</Code>
+              <Name>John F. Kennedy Apt/New York</Name>
+            </Port>
+            <Postcode>13045</Postcode>
+            <ScreeningStatus>
+              <Code>CLR</Code>
+              <Description>安全</Description>
+            </ScreeningStatus>
+            <State Description="New York">NY</State>
+          </OrganizationAddress>
+          <OrganizationAddress>
+            <AddressType>ConsigneePickupDeliveryAddress</AddressType>
+            <Address1>106 CENTRAL AVE</Address1>
+            <Address2>CORTLAND NY 13045 UNITED STATES</Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>106 CENTRAL AVE</AddressShortCode>
+            <City>CORTLAND</City>
+            <CompanyName>MARIETTA CORPORATION -CENTRAL PLANT</CompanyName>
+            <Country>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </Country>
+            <Email></Email>
+            <Fax></Fax>
+            <OrganizationCode>MARCENJFK</OrganizationCode>
+            <Phone>+17189953853</Phone>
+            <Port>
+              <Code>USJFK</Code>
+              <Name>John F. Kennedy Apt/New York</Name>
+            </Port>
+            <Postcode>13045</Postcode>
+            <ScreeningStatus>
+              <Code>CLR</Code>
+              <Description>安全</Description>
+            </ScreeningStatus>
+            <State Description="New York">NY</State>
+          </OrganizationAddress>
+          <OrganizationAddress>
+            <AddressType>ControllingCustomer</AddressType>
+            <AdditionalAddressInformation>广州艺骏</AdditionalAddressInformation>
+            <Address1>Rm 1204, Heye Plaza, NO.486, Kangwangzhong Road,</Address1>
+            <Address2>Guangzhou, P.R.C.</Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>Rm 1204, Heye Plaza, NO.4</AddressShortCode>
+            <City>GUANGZHOU</City>
+            <CompanyName>ASCENDANT LOGISTICS CO.,LTD.</CompanyName>
+            <Country>
+              <Code>CN</Code>
+              <Name>China</Name>
+            </Country>
+            <Email></Email>
+            <Fax></Fax>
+            <GovRegNum>91440112793479719B</GovRegNum>
+            <GovRegNumType>
+              <Code>VAT</Code>
+              <Description>增值税纳税人识别号</Description>
+            </GovRegNumType>
+            <OrganizationCode>ASCLOGCAN</OrganizationCode>
+            <Phone>+862081734861</Phone>
+            <Port>
+              <Code>CNCAN</Code>
+              <Name>Guangzhou Baiyun International Apt</Name>
+            </Port>
+            <Postcode>510000</Postcode>
+            <ScreeningStatus>
+              <Code>CLR</Code>
+              <Description>安全</Description>
+            </ScreeningStatus>
+            <State Description="Guangdong">44</State>
+          </OrganizationAddress>
+          <OrganizationAddress>
+            <AddressType>SendersLocalClient</AddressType>
+            <Address1>广州市荔湾区康王中路486号和业广场1204室</Address1>
+            <Address2></Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>广州市荔湾区康王中路486号和业广场1204室</AddressShortCode>
+            <City>广州</City>
+            <CompanyName>广州市艺骏国际货运代理有限公司</CompanyName>
+            <Country>
+              <Code>CN</Code>
+              <Name>China</Name>
+            </Country>
+            <Email></Email>
+            <Fax></Fax>
+            <GovRegNum>91440112793479719B</GovRegNum>
+            <GovRegNumType>
+              <Code>VAT</Code>
+              <Description>增值税纳税人识别号</Description>
+            </GovRegNumType>
+            <OrganizationCode>ASCLOGCAN</OrganizationCode>
+            <Phone></Phone>
+            <Port>
+              <Code>CNGGZ</Code>
+              <Name>Guangzhou</Name>
+            </Port>
+            <Postcode>510000</Postcode>
+            <ScreeningStatus>
+              <Code>CLR</Code>
+              <Description>安全</Description>
+            </ScreeningStatus>
+            <State Description="Guangdong">44</State>
+          </OrganizationAddress>
+          <OrganizationAddress>
+            <AddressType>SendersOverseasAgent</AddressType>
+            <Address1>100 GARDEN CITY PLZ STE 102</Address1>
+            <Address2>GARDEN CITY,NY 11530</Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>100 GARDEN CITY PLZ STE 1</AddressShortCode>
+            <City>GARDEN CITY</City>
+            <CompanyName>C.H. ROBINSON INTERNATIONAL, INC./JFK GATEWAY</CompanyName>
+            <Country>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </Country>
+            <Email></Email>
+            <Fax></Fax>
+            <OrganizationCode>CHROBIJFK3</OrganizationCode>
+            <Phone>+17189953853</Phone>
+            <Port>
+              <Code>USJFK</Code>
+              <Name>John F. Kennedy Apt/New York</Name>
+            </Port>
+            <Postcode>11530</Postcode>
+            <ScreeningStatus>
+              <Code>CLR</Code>
+              <Description>安全</Description>
+            </ScreeningStatus>
+            <State Description="New York">NY</State>
+          </OrganizationAddress>
+          <OrganizationAddress>
+            <AddressType>ShipmentControllingParty</AddressType>
+            <AdditionalAddressInformation>广州艺骏</AdditionalAddressInformation>
+            <Address1>Rm 1204, Heye Plaza, NO.486, Kangwangzhong Road,</Address1>
+            <Address2>Guangzhou, P.R.C.</Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>Rm 1204, Heye Plaza, NO.4</AddressShortCode>
+            <City>GUANGZHOU</City>
+            <CompanyName>ASCENDANT LOGISTICS CO.,LTD.</CompanyName>
+            <Country>
+              <Code>CN</Code>
+              <Name>China</Name>
+            </Country>
+            <Email></Email>
+            <Fax></Fax>
+            <GovRegNum>91440112793479719B</GovRegNum>
+            <GovRegNumType>
+              <Code>VAT</Code>
+              <Description>增值税纳税人识别号</Description>
+            </GovRegNumType>
+            <OrganizationCode>ASCLOGCAN</OrganizationCode>
+            <Phone>+862081734861</Phone>
+            <Port>
+              <Code>CNCAN</Code>
+              <Name>Guangzhou Baiyun International Apt</Name>
+            </Port>
+            <Postcode>510000</Postcode>
+            <ScreeningStatus>
+              <Code>CLR</Code>
+              <Description>安全</Description>
+            </ScreeningStatus>
+            <State Description="Guangdong">44</State>
+          </OrganizationAddress>
+        </OrganizationAddressCollection>
+
+        <PackingLineCollection Content="Complete">
+          <PackingLine>
+            <Commodity>
+              <Code>GEN</Code>
+              <Description>通用</Description>
+            </Commodity>
+            <ContainerNumber></ContainerNumber>
+            <ContainerPackingOrder>0</ContainerPackingOrder>
+            <CountryOfOrigin>
+              <Code></Code>
+            </CountryOfOrigin>
+            <DetailedDescription></DetailedDescription>
+            <EndItemNo>0</EndItemNo>
+            <ExportReferenceNumber></ExportReferenceNumber>
+            <GoodsDescription></GoodsDescription>
+            <HarmonisedCode></HarmonisedCode>
+            <Height>122.000</Height>
+            <ImportReferenceNumber></ImportReferenceNumber>
+            <ItemNo>0</ItemNo>
+            <Length>120.000</Length>
+            <LengthUnit>
+              <Code>CM</Code>
+              <Description>厘米</Description>
+            </LengthUnit>
+            <LinePrice>0.0000</LinePrice>
+            <Link>1</Link>
+            <LoadingMeters>0.000</LoadingMeters>
+            <MarksAndNos></MarksAndNos>
+            <OutturnComment></OutturnComment>
+            <OutturnDamagedQty>0</OutturnDamagedQty>
+            <OutturnedHeight>0.000</OutturnedHeight>
+            <OutturnedLength>0.000</OutturnedLength>
+            <OutturnedVolume>0.000</OutturnedVolume>
+            <OutturnedWeight>0.000</OutturnedWeight>
+            <OutturnedWidth>0.000</OutturnedWidth>
+            <OutturnPillagedQty>0</OutturnPillagedQty>
+            <OutturnQty>0</OutturnQty>
+            <PackingLineID>AGZPRD00180095</PackingLineID>
+            <PackQty>1</PackQty>
+            <PackType>
+              <Code>CTN</Code>
+              <Description>纸箱</Description>
+            </PackType>
+            <ReferenceNumber></ReferenceNumber>
+            <RequiresTemperatureControl>false</RequiresTemperatureControl>
+            <Volume>1.464</Volume>
+            <VolumeUnit>
+              <Code>M3</Code>
+              <Description>立方米</Description>
+            </VolumeUnit>
+            <Weight>423.000</Weight>
+            <WeightUnit>
+              <Code>KG</Code>
+              <Description>公斤</Description>
+            </WeightUnit>
+            <Width>100.000</Width>
+
+            <CustomizedFieldCollection>
+              <CustomizedField>
+                <DataType>String</DataType>
+                <Key>ADS Length</Key>
+                <Value></Value>
+              </CustomizedField>
+              <CustomizedField>
+                <DataType>String</DataType>
+                <Key>ADS Height</Key>
+                <Value></Value>
+              </CustomizedField>
+              <CustomizedField>
+                <DataType>String</DataType>
+                <Key>ADS Width</Key>
+                <Value></Value>
+              </CustomizedField>
+              <CustomizedField>
+                <DataType>String</DataType>
+                <Key>ADS Volume</Key>
+                <Value></Value>
+              </CustomizedField>
+            </CustomizedFieldCollection>
+
+            <PackedItemCollection>
+            </PackedItemCollection>
+          </PackingLine>
+          <PackingLine>
+            <Commodity>
+              <Code>GEN</Code>
+              <Description>通用</Description>
+            </Commodity>
+            <ContainerNumber></ContainerNumber>
+            <ContainerPackingOrder>0</ContainerPackingOrder>
+            <CountryOfOrigin>
+              <Code></Code>
+            </CountryOfOrigin>
+            <DetailedDescription></DetailedDescription>
+            <EndItemNo>0</EndItemNo>
+            <ExportReferenceNumber></ExportReferenceNumber>
+            <GoodsDescription>PUMP,30MM,NATURAL COLOR KIMBERLY CLARK</GoodsDescription>
+            <HarmonisedCode></HarmonisedCode>
+            <Height>88.000</Height>
+            <ImportReferenceNumber></ImportReferenceNumber>
+            <ItemNo>0</ItemNo>
+            <Length>120.000</Length>
+            <LengthUnit>
+              <Code>CM</Code>
+              <Description>厘米</Description>
+            </LengthUnit>
+            <LinePrice>0.0000</LinePrice>
+            <Link>2</Link>
+            <LoadingMeters>0.000</LoadingMeters>
+            <MarksAndNos></MarksAndNos>
+            <OutturnComment></OutturnComment>
+            <OutturnDamagedQty>0</OutturnDamagedQty>
+            <OutturnedHeight>0.000</OutturnedHeight>
+            <OutturnedLength>0.000</OutturnedLength>
+            <OutturnedVolume>0.000</OutturnedVolume>
+            <OutturnedWeight>0.000</OutturnedWeight>
+            <OutturnedWidth>0.000</OutturnedWidth>
+            <OutturnPillagedQty>0</OutturnPillagedQty>
+            <OutturnQty>0</OutturnQty>
+            <PackingLineID>AGZPRD00180754</PackingLineID>
+            <PackQty>1</PackQty>
+            <PackType>
+              <Code>CTN</Code>
+              <Description>纸箱</Description>
+            </PackType>
+            <ReferenceNumber></ReferenceNumber>
+            <RequiresTemperatureControl>false</RequiresTemperatureControl>
+            <Volume>1.056</Volume>
+            <VolumeUnit>
+              <Code>M3</Code>
+              <Description>立方米</Description>
+            </VolumeUnit>
+            <Weight>0.000</Weight>
+            <WeightUnit>
+              <Code>KG</Code>
+              <Description>公斤</Description>
+            </WeightUnit>
+            <Width>100.000</Width>
+
+            <CustomizedFieldCollection>
+              <CustomizedField>
+                <DataType>String</DataType>
+                <Key>ADS Length</Key>
+                <Value></Value>
+              </CustomizedField>
+              <CustomizedField>
+                <DataType>String</DataType>
+                <Key>ADS Height</Key>
+                <Value></Value>
+              </CustomizedField>
+              <CustomizedField>
+                <DataType>String</DataType>
+                <Key>ADS Width</Key>
+                <Value></Value>
+              </CustomizedField>
+              <CustomizedField>
+                <DataType>String</DataType>
+                <Key>ADS Volume</Key>
+                <Value></Value>
+              </CustomizedField>
+            </CustomizedFieldCollection>
+
+            <PackedItemCollection>
+            </PackedItemCollection>
+          </PackingLine>
+        </PackingLineCollection>
+
+        <TransportLegCollection Content="Complete">
+          <TransportLeg>
+            <PortOfDischarge>
+              <Code>CNPEK</Code>
+              <Name>Beijing Shoudu International Apt</Name>
+            </PortOfDischarge>
+            <PortOfLoading>
+              <Code>CNCAN</Code>
+              <Name>Guangzhou Baiyun International Apt</Name>
+            </PortOfLoading>
+            <LegOrder>1</LegOrder>
+            <ActualArrival></ActualArrival>
+            <ActualArrivalInPortOfLoading></ActualArrivalInPortOfLoading>
+            <ActualDeparture></ActualDeparture>
+            <AircraftType>
+              <Code></Code>
+            </AircraftType>
+            <ArrivalBerth></ArrivalBerth>
+            <ArrivalReference></ArrivalReference>
+            <BookingStatus>
+              <Code>PLN</Code>
+              <Description>排定</Description>
+            </BookingStatus>
+            <Carrier>
+              <AddressType>Carrier</AddressType>
+              <Address1>CAPITAL INTERNATIONAL AIRPORT</Address1>
+              <Address2></Address2>
+              <AddressOverride>false</AddressOverride>
+              <AddressShortCode>CAPITAL INTERNATIONAL AIR</AddressShortCode>
+              <City>PEK</City>
+              <CompanyName>CA 999 AIR CHINA INTERNATIONAL CORPORATION</CompanyName>
+              <Country>
+                <Code>CN</Code>
+                <Name>China</Name>
+              </Country>
+              <Email></Email>
+              <Fax></Fax>
+              <OrganizationCode>CA999A_WW</OrganizationCode>
+              <Phone></Phone>
+              <Port>
+                <Code>CNPEK</Code>
+                <Name>Beijing Shoudu International Apt</Name>
+              </Port>
+              <Postcode>100621</Postcode>
+              <ScreeningStatus>
+                <Code>CLR</Code>
+                <Description>安全</Description>
+              </ScreeningStatus>
+              <State Description="Beijing">11</State>
+            </Carrier>
+            <CarrierBookingReference></CarrierBookingReference>
+            <CarrierServiceLevel>
+              <Code></Code>
+            </CarrierServiceLevel>
+            <DepartureBerth></DepartureBerth>
+            <DepartureReference></DepartureReference>
+            <DocumentCutOff></DocumentCutOff>
+            <EstimatedArrival>2021-08-26T15:54:00</EstimatedArrival>
+            <EstimatedArrivalInPortOfLoading></EstimatedArrivalInPortOfLoading>
+            <EstimatedDeparture>2021-08-26T10:05:00</EstimatedDeparture>
+            <FCLAvailability></FCLAvailability>
+            <FCLCutOff></FCLCutOff>
+            <FCLReceivalCommences></FCLReceivalCommences>
+            <FCLStorage></FCLStorage>
+            <HazzardCutOffDate></HazzardCutOffDate>
+            <HazzardReceivalCommences></HazzardReceivalCommences>
+            <IsCargoOnly>true</IsCargoOnly>
+            <LCLAvailability></LCLAvailability>
+            <LCLCutOff></LCLCutOff>
+            <LCLReceivalCommences></LCLReceivalCommences>
+            <LCLStorageDate></LCLStorageDate>
+            <LegNotes></LegNotes>
+            <LegType>Flight1</LegType>
+            <TransportMode>Air</TransportMode>
+            <VesselLloydsIMO></VesselLloydsIMO>
+            <VesselName></VesselName>
+            <VGMCutOff></VGMCutOff>
+            <VoyageFlightNo>CA1322</VoyageFlightNo>
+          </TransportLeg>
+          <TransportLeg>
+            <PortOfDischarge>
+              <Code>USJFK</Code>
+              <Name>John F. Kennedy Apt/New York</Name>
+            </PortOfDischarge>
+            <PortOfLoading>
+              <Code>CNPEK</Code>
+              <Name>Beijing Shoudu International Apt</Name>
+            </PortOfLoading>
+            <LegOrder>2</LegOrder>
+            <ActualArrival></ActualArrival>
+            <ActualDeparture></ActualDeparture>
+            <AircraftType>
+              <Code></Code>
+            </AircraftType>
+            <BookingStatus>
+              <Code>PLN</Code>
+              <Description>排定</Description>
+            </BookingStatus>
+            <Carrier>
+              <AddressType>Carrier</AddressType>
+              <Address1>CAPITAL INTERNATIONAL AIRPORT</Address1>
+              <Address2></Address2>
+              <AddressOverride>false</AddressOverride>
+              <AddressShortCode>CAPITAL INTERNATIONAL AIR</AddressShortCode>
+              <City>PEK</City>
+              <CompanyName>CA 999 AIR CHINA INTERNATIONAL CORPORATION</CompanyName>
+              <Country>
+                <Code>CN</Code>
+                <Name>China</Name>
+              </Country>
+              <Email></Email>
+              <Fax></Fax>
+              <OrganizationCode>CA999A_WW</OrganizationCode>
+              <Phone></Phone>
+              <Port>
+                <Code>CNPEK</Code>
+                <Name>Beijing Shoudu International Apt</Name>
+              </Port>
+              <Postcode>100621</Postcode>
+              <ScreeningStatus>
+                <Code>CLR</Code>
+                <Description>安全</Description>
+              </ScreeningStatus>
+              <State Description="Beijing">11</State>
+            </Carrier>
+            <CarrierBookingReference></CarrierBookingReference>
+            <CarrierServiceLevel>
+              <Code></Code>
+            </CarrierServiceLevel>
+            <DocumentCutOff></DocumentCutOff>
+            <EstimatedArrival>2021-08-27T15:55:00</EstimatedArrival>
+            <EstimatedDeparture>2021-08-27T15:55:00</EstimatedDeparture>
+            <FCLAvailability></FCLAvailability>
+            <FCLCutOff></FCLCutOff>
+            <FCLReceivalCommences></FCLReceivalCommences>
+            <FCLStorage></FCLStorage>
+            <LCLAvailability></LCLAvailability>
+            <LCLCutOff></LCLCutOff>
+            <LCLReceivalCommences></LCLReceivalCommences>
+            <LCLStorageDate></LCLStorageDate>
+            <LegNotes></LegNotes>
+            <LegType>Flight2</LegType>
+            <TransportMode>Air</TransportMode>
+            <VesselLloydsIMO></VesselLloydsIMO>
+            <VesselName></VesselName>
+            <VGMCutOff></VGMCutOff>
+            <VoyageFlightNo>CA</VoyageFlightNo>
+          </TransportLeg>
+        </TransportLegCollection>
+      </SubShipment>
+    </SubShipmentCollection>
+
+    <TransportLegCollection Content="Complete">
+      <TransportLeg>
+        <PortOfDischarge>
+          <Code>CNPEK</Code>
+          <Name>Beijing Shoudu International Apt</Name>
+        </PortOfDischarge>
+        <PortOfLoading>
+          <Code>CNCAN</Code>
+          <Name>Guangzhou Baiyun International Apt</Name>
+        </PortOfLoading>
+        <LegOrder>1</LegOrder>
+        <ActualArrival></ActualArrival>
+        <ActualArrivalInPortOfLoading></ActualArrivalInPortOfLoading>
+        <ActualDeparture></ActualDeparture>
+        <AircraftType>
+          <Code></Code>
+        </AircraftType>
+        <ArrivalBerth></ArrivalBerth>
+        <ArrivalReference></ArrivalReference>
+        <BookingStatus>
+          <Code>PLN</Code>
+          <Description>排定</Description>
+        </BookingStatus>
+        <Carrier>
+          <AddressType>Carrier</AddressType>
+          <Address1>CAPITAL INTERNATIONAL AIRPORT</Address1>
+          <Address2></Address2>
+          <AddressOverride>false</AddressOverride>
+          <AddressShortCode>CAPITAL INTERNATIONAL AIR</AddressShortCode>
+          <City>PEK</City>
+          <CompanyName>CA 999 AIR CHINA INTERNATIONAL CORPORATION</CompanyName>
+          <Country>
+            <Code>CN</Code>
+            <Name>China</Name>
+          </Country>
+          <Email></Email>
+          <Fax></Fax>
+          <OrganizationCode>CA999A_WW</OrganizationCode>
+          <Phone></Phone>
+          <Port>
+            <Code>CNPEK</Code>
+            <Name>Beijing Shoudu International Apt</Name>
+          </Port>
+          <Postcode>100621</Postcode>
+          <ScreeningStatus>
+            <Code>CLR</Code>
+            <Description>安全</Description>
+          </ScreeningStatus>
+          <State Description="Beijing">11</State>
+        </Carrier>
+        <CarrierBookingReference></CarrierBookingReference>
+        <CarrierServiceLevel>
+          <Code></Code>
+        </CarrierServiceLevel>
+        <DepartureBerth></DepartureBerth>
+        <DepartureReference></DepartureReference>
+        <DocumentCutOff></DocumentCutOff>
+        <EstimatedArrival>2021-08-26T15:54:00</EstimatedArrival>
+        <EstimatedArrivalInPortOfLoading></EstimatedArrivalInPortOfLoading>
+        <EstimatedDeparture>2021-08-26T10:05:00</EstimatedDeparture>
+        <FCLAvailability></FCLAvailability>
+        <FCLCutOff></FCLCutOff>
+        <FCLReceivalCommences></FCLReceivalCommences>
+        <FCLStorage></FCLStorage>
+        <HazzardCutOffDate></HazzardCutOffDate>
+        <HazzardReceivalCommences></HazzardReceivalCommences>
+        <IsCargoOnly>true</IsCargoOnly>
+        <LCLAvailability></LCLAvailability>
+        <LCLCutOff></LCLCutOff>
+        <LCLReceivalCommences></LCLReceivalCommences>
+        <LCLStorageDate></LCLStorageDate>
+        <LegNotes></LegNotes>
+        <LegType>Flight1</LegType>
+        <TransportMode>Air</TransportMode>
+        <VesselLloydsIMO></VesselLloydsIMO>
+        <VesselName></VesselName>
+        <VGMCutOff></VGMCutOff>
+        <VoyageFlightNo>CA1322</VoyageFlightNo>
+      </TransportLeg>
+      <TransportLeg>
+        <PortOfDischarge>
+          <Code>USJFK</Code>
+          <Name>John F. Kennedy Apt/New York</Name>
+        </PortOfDischarge>
+        <PortOfLoading>
+          <Code>CNPEK</Code>
+          <Name>Beijing Shoudu International Apt</Name>
+        </PortOfLoading>
+        <LegOrder>2</LegOrder>
+        <ActualArrival></ActualArrival>
+        <ActualDeparture></ActualDeparture>
+        <AircraftType>
+          <Code></Code>
+        </AircraftType>
+        <BookingStatus>
+          <Code>PLN</Code>
+          <Description>排定</Description>
+        </BookingStatus>
+        <Carrier>
+          <AddressType>Carrier</AddressType>
+          <Address1>CAPITAL INTERNATIONAL AIRPORT</Address1>
+          <Address2></Address2>
+          <AddressOverride>false</AddressOverride>
+          <AddressShortCode>CAPITAL INTERNATIONAL AIR</AddressShortCode>
+          <City>PEK</City>
+          <CompanyName>CA 999 AIR CHINA INTERNATIONAL CORPORATION</CompanyName>
+          <Country>
+            <Code>CN</Code>
+            <Name>China</Name>
+          </Country>
+          <Email></Email>
+          <Fax></Fax>
+          <OrganizationCode>CA999A_WW</OrganizationCode>
+          <Phone></Phone>
+          <Port>
+            <Code>CNPEK</Code>
+            <Name>Beijing Shoudu International Apt</Name>
+          </Port>
+          <Postcode>100621</Postcode>
+          <ScreeningStatus>
+            <Code>CLR</Code>
+            <Description>安全</Description>
+          </ScreeningStatus>
+          <State Description="Beijing">11</State>
+        </Carrier>
+        <CarrierBookingReference></CarrierBookingReference>
+        <CarrierServiceLevel>
+          <Code></Code>
+        </CarrierServiceLevel>
+        <DocumentCutOff></DocumentCutOff>
+        <EstimatedArrival>2021-08-27T15:55:00</EstimatedArrival>
+        <EstimatedDeparture>2021-08-27T15:55:00</EstimatedDeparture>
+        <FCLAvailability></FCLAvailability>
+        <FCLCutOff></FCLCutOff>
+        <FCLReceivalCommences></FCLReceivalCommences>
+        <FCLStorage></FCLStorage>
+        <LCLAvailability></LCLAvailability>
+        <LCLCutOff></LCLCutOff>
+        <LCLReceivalCommences></LCLReceivalCommences>
+        <LCLStorageDate></LCLStorageDate>
+        <LegNotes></LegNotes>
+        <LegType>Flight2</LegType>
+        <TransportMode>Air</TransportMode>
+        <VesselLloydsIMO></VesselLloydsIMO>
+        <VesselName></VesselName>
+        <VGMCutOff></VGMCutOff>
+        <VoyageFlightNo>CA</VoyageFlightNo>
+      </TransportLeg>
+    </TransportLegCollection>
+  </Shipment>
+</UniversalShipment>
+  </Body>
+</UniversalInterchange>
