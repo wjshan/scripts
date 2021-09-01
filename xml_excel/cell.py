@@ -11,6 +11,7 @@ from openpyxl.compat import safe_string
 from openpyxl.styles import Font, Border, Fill, Alignment, Protection
 from lxml import etree
 from openpyxl.worksheet.worksheet import Worksheet
+from openpyxl.utils.cell import get_column_letter
 
 
 class RowCellsSerializer(SerializerAble):
@@ -35,7 +36,6 @@ class RowCellsSerializer(SerializerAble):
         for cell in self.cells:
             skip = cell.to_excel(parent, *args, col_index=col_index, row_index=row_index)
             col_index = skip + col_index + 1
-
         return self.skip_rows
 
     @classmethod
@@ -77,6 +77,7 @@ class CellSerializer(SerializerAble):
         self.styles = {}
         self._cell_id = id(self)
         self.number_format = None
+        self.clone_num = 0
 
     @property
     def cell_id(self):
@@ -106,20 +107,28 @@ class CellSerializer(SerializerAble):
         return self
 
     def to_excel(self, parent: Worksheet, *args, **kwargs):
-        col_index = kwargs.get('col_index', 1) + self.skip_cols
+        col_index = kwargs.get('col_index', 1) + kwargs.get('skip_cols', self.skip_cols)
         row_index = kwargs.get('row_index', 1)
-        cell = parent.cell(column=col_index, row=row_index, value=self.value)
+        column_letter = get_column_letter(col_index)
+        cell = parent[f"{column_letter}{row_index}"]
+        cell.value = self.value
+        # cell = parent.cell(column=col_index, row=row_index, value=self.value)
+        if self.number_format:
+            cell.number_format = self.number_format
+        for style_name, style_instance in self.styles.items():
+            setattr(cell, style_name, style_instance)
         min_row = row_index
         max_row = min_row + self.row_span
         min_col = col_index
         max_col = min_col + self.col_span
         if min_row != max_row or min_col != max_col:
             parent.merge_cells(start_row=min_row, start_column=min_col, end_row=max_row, end_column=max_col)
-        if self.number_format:
-            cell.number_format = self.number_format
-        for style_name, style_instance in self.styles.items():
-            setattr(cell, style_name, style_instance)
-        return self.skip_cols
+        clone_num = kwargs.get('clone_num', self.clone_num)
+        skip_cols = self.skip_cols
+        if clone_num > 1:
+            skip_cols += self.to_excel(parent, col_index=col_index + 1, row_index=row_index,
+                                       clone_num=clone_num - 1, skip_cols=self.col_span)
+        return skip_cols
 
     @classmethod
     def from_xml(cls, node, *args, **kwargs):
@@ -130,8 +139,9 @@ class CellSerializer(SerializerAble):
         self.row_span = self.convert_python_value(node.attrib.get('row_span', 0), 'int')
         self.col_span = self.convert_python_value(node.attrib.get('col_span', 0), 'int')
         self.skip_cols = self.convert_python_value(node.attrib.get('skip_cols', 0), 'int')
+        self.clone_num = self.convert_python_value(node.attrib.get('clone_num', 0), 'int')
         self.number_format = node.attrib.get('number_format')
-        if style_node:
+        if len(style_node):
             styles = style_node.xpath(f'//CellStyle[@name={self.cell_id}]')
         else:
             styles = node.xpath(f'//CellStyle[@name={self.cell_id}]')
@@ -156,6 +166,9 @@ class CellSerializer(SerializerAble):
         if self.col_span:
             col_span = self.convert_xml_value(self.col_span)
             cell_node.attrib['col_span'] = col_span
+        if self.clone_num:
+            clone_num = self.convert_xml_value(self.clone_num)
+            cell_node.attrib['clone_num'] = clone_num
         style_node = etree.Element('CellStyle', name=name)
         for style_name, style_instance in self.styles.items():
             _s = style_instance.to_tree(style_name)

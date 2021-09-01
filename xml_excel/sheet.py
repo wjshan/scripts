@@ -11,6 +11,8 @@ from .cell import CellSerializer, RowCellsSerializer
 from openpyxl.worksheet.dimensions import RowDimension, ColumnDimension
 from openpyxl import Workbook
 from lxml import etree
+from openpyxl.utils.cell import get_column_letter
+from openpyxl.worksheet.filters import AutoFilter
 
 
 class ColumnSerializer(object):
@@ -21,6 +23,8 @@ class ColumnSerializer(object):
         self.attrs = attrs
 
 
+# todo: 完善打印设置
+
 class SheetSerializer(SerializerAble):
     tag_name = 'sheet'
 
@@ -29,6 +33,8 @@ class SheetSerializer(SerializerAble):
         self.rows = []
         self.column_style = []
         self._name = id(self)
+        self.freeze_panes = None
+        self.auto_filter = None
 
     @property
     def name(self):
@@ -42,6 +48,11 @@ class SheetSerializer(SerializerAble):
     @classmethod
     def from_excel(cls, work_sheet: Worksheet, *args, **kwargs):
         self = cls(work_sheet.title)
+        # work_sheet.oddHeader
+        # work_sheet.print_area
+        # work_sheet.print_options
+        self.auto_filter = work_sheet.auto_filter
+        self.freeze_panes = work_sheet.freeze_panes
         merged_cell_map = {x.start_cell.coordinate: (x.min_row, x.max_row, x.min_col, x.max_col) for x in
                            work_sheet.merged_cells}
         row_dimension_map = {}
@@ -55,6 +66,8 @@ class SheetSerializer(SerializerAble):
         for row in work_sheet.iter_rows():
             cells = []
             for cell in row:
+                if col_index >= 50:
+                    break
                 if not isinstance(cell, Cell):
                     col_index += 1
                     continue
@@ -85,19 +98,39 @@ class SheetSerializer(SerializerAble):
     def to_excel(self, parent: Workbook, *args, **kwargs):
         index = kwargs.get('index')
         sheet = parent.create_sheet(self.title, index=index)
+        if self.auto_filter:
+            sheet.auto_filter = self.auto_filter
+        if self.freeze_panes:
+            sheet.freeze_panes = self.freeze_panes
         row_index = 1
         for row in self.rows:
             skip_row = row.to_excel(sheet, row_index=row_index)
             row_index = row_index + skip_row + 1
+        for column_style in self.column_style:
+            start_column = self.convert_python_value(column_style.get('min', 0), 'int')
+            end_column = self.convert_python_value(column_style.get('min', 0), 'max')
+            sheet.column_dimensions[get_column_letter(start_column)] = ColumnDimension(
+                self, **dict({x: column_style.get(x) for x in ColumnDimension.__fields__}, style=None))
 
     @classmethod
     def from_xml(cls, node, *args, **kwargs):
         title = cls.convert_python_value(node.attrib.get('title'), 'str')
         self = cls(title)
         self.name = self.convert_python_value(node.attrib.get('name'), 'int')
-        style_nodes = kwargs.get('style_node') or node
+        style_nodes = kwargs.get('style_node')
+        if not len(style_nodes):
+            style_nodes = node
         for style_node in style_nodes.xpath(f"//ColumnStyle[@name={self.name}]"):
             self.column_style.append(style_node.attrib)
+        freeze_panes_tags = style_nodes.xpath(f'//FreezePanes[@name={self.name}]')
+        if freeze_panes_tags:
+            freeze_panes_tag = freeze_panes_tags[-1]
+            self.freeze_panes = freeze_panes_tag.attrib.get('value')
+
+        auto_filters = style_nodes.xpath(f"//AutoFilters[@name={self.name}]/AutoFilter")
+        if auto_filters:
+            auto_filter = auto_filters[-1]
+            self.auto_filter = AutoFilter.from_tree(auto_filter)
         for row_node in node.xpath(f"{RowCellsSerializer.tag_name}"):
             self.rows.append(RowCellsSerializer.from_xml(row_node, style_node=style_nodes))
         return self
@@ -110,6 +143,16 @@ class SheetSerializer(SerializerAble):
             style_tags.append(
                 etree.Element('ColumnStyle', name=name, **column_attr)
             )
+
+        if self.freeze_panes:
+            style_tags.append(
+                etree.Element('FreezePanes', name=name, value=self.freeze_panes)
+            )
+        if self.auto_filter:
+            auto_filters = etree.Element('AutoFilters', name=name)
+            auto_filter_tag = self.auto_filter.to_tree('AutoFilter')
+            auto_filters.append(auto_filter_tag)
+            style_tags.append(auto_filters)
         for row in self.rows:
             row_node, style_nodes = row.to_xml()
             sheet_tag.append(row_node)

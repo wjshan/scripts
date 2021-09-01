@@ -30,7 +30,7 @@ class SerializerAble(object):
 
     @staticmethod
     def convert_python_value(value, datatype=None):
-        if value == 'none' and datatype == 'NoneType':
+        if value == 'none' and datatype != 'str':
             return None
         if value is None:
             return None
